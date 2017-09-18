@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "喀什市",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "巴楚县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "泽普县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "伽师县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "叶城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "岳普湖县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "疏附县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "疏勒县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "英吉沙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "麦盖提县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "莎车县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        },
+        {
+            "name": "塔什库尔干县",
+            "cityId": {
+                "$REF$": "(lct.city,name=喀什地区)"
+            }
+        }
+    ]
+}

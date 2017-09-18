@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "延吉市",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "图们市",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "敦化市",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "珲春市",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "龙井市",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "和龙市",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "汪清县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        },
+        {
+            "name": "安图县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延边州)"
+            }
+        }
+    ]
+}

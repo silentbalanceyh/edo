@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "呼和浩特市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "包头市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "乌海市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "赤峰市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "乌兰察布市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "锡林郭勒盟",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "呼伦贝尔市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "鄂尔多斯市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "巴彦淖尔市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "阿拉善盟",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "兴安盟",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        },
+        {
+            "name": "通辽市",
+            "stateId":{
+                "$REF$":"(lct.state,code=NMG)"
+            }
+        }
+    ]
+}

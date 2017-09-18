@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "宁江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=松原市)"
+            }
+        },
+        {
+            "name": "前郭县",
+            "cityId": {
+                "$REF$": "(lct.city,name=松原市)"
+            }
+        },
+        {
+            "name": "乾安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=松原市)"
+            }
+        },
+        {
+            "name": "长岭县",
+            "cityId": {
+                "$REF$": "(lct.city,name=松原市)"
+            }
+        },
+        {
+            "name": "扶余县",
+            "cityId": {
+                "$REF$": "(lct.city,name=松原市)"
+            }
+        }
+    ]
+}

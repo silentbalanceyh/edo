@@ -1,0 +1,89 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "苏家屯区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "新民区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "法库县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "辽中县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "康平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "皇姑区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "铁西区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "大东区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "沈河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "东陵区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "于洪区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "和平区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "浑南新区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        },
+        {
+            "name": "沈北新区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沈阳市)"
+            }
+        }
+    ]
+}

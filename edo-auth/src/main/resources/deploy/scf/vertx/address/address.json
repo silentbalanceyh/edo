@@ -1,0 +1,37 @@
+[
+    {
+        "workClass": "com.vie.un.vtc.DataWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/DATA",
+        "consumerHandler": "com.vie.un.exchange.DataReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.PagerWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/PAGER",
+        "consumerHandler": "com.vie.un.exchange.PagerReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.ViewWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/VIEW",
+        "consumerHandler": "com.vie.un.exchange.ViewReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.PostGetWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/POST",
+        "consumerHandler": "com.vie.un.exchange.PostGetReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.CrossWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/CROSS",
+        "consumerHandler": "com.vie.un.exchange.CrossReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.ScriptWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/SCRIPT",
+        "consumerHandler": "com.vie.un.exchange.ScriptReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.InquiryWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/QUIRY",
+        "consumerHandler": "com.vie.un.exchange.InquiryReplier"
+    }
+]

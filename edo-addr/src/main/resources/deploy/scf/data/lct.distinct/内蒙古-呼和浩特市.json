@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "玉泉区",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "赛罕区",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "土默特左旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "和林格尔县",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "武川县",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "托克托县",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "清水河县",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "回民区",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        },
+        {
+            "name": "新城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=呼和浩特市)"
+            }
+        }
+    ]
+}

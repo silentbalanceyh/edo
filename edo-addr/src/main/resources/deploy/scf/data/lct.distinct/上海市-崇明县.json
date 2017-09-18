@@ -1,0 +1,113 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "堡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "庙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "陈家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "城桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "东平镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "港西镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "港沿镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "建设镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "绿华镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "三星镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "竖新镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "向化镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "新海镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "新河镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "中兴镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "长兴乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "横沙乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        },
+        {
+            "name": "新村乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=崇明县)"
+            }
+        }
+    ]
+}

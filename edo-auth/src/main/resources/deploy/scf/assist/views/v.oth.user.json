@@ -1,0 +1,74 @@
+{
+    "__view__":
+    {
+        "namespace": "com.viev.oth",
+        "name": "OAuthUser",
+        "identifier": "v.oth.user",
+        "statement": "SEC_USER AS U JOIN OTH_USER AS O ON U.PK_ID=O.R_CLIENT_ID"
+    },
+    "__columns__":
+    [
+        {
+            "name": "uniqueId",
+            "type": "StringType",
+            "columnName": "U.PK_ID",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "username",
+            "columnName": "U.S_USERNAME"
+        },
+        {
+            "name": "email",
+            "columnName": "U.S_EMAIL"
+        },
+        {
+            "name": "mobile",
+            "columnName": "U.S_MOBILE"
+        },
+        {
+            "name": "password",
+            "columnName": "U.S_PASSWORD"
+        },
+        {
+            "name": "qq",
+            "columnName": "U.S_QQ"
+        },
+        {
+            "name": "alipay",
+            "columnName": "U.S_ALIPAY"
+        },
+        {
+            "name": "taobao",
+            "columnName": "U.S_TAOBAO"
+        },
+        {
+            "name": "weibo",
+            "columnName": "U.S_WEIBO"
+        },
+        {
+            "name": "wechat",
+            "columnName": "U.S_WECHAT"
+        },
+        {
+            "name": "secret",
+            "columnName": "U.S_SECRET"
+        },
+        {
+            "name": "redirectUri",
+            "columnName": "O.T_REDIRECT_URI"
+        },
+        {
+            "name": "scope",
+            "columnName": "O.S_SCOPE"
+        },
+        {
+            "name": "clientSecret",
+            "columnName": "O.S_CLIENT_SECRET"
+        },
+        {
+            "name": "grantType",
+            "columnName": "O.S_GRANT_TYPE"
+        }
+    ]
+}

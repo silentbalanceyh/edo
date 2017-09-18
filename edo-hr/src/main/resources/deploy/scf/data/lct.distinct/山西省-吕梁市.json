@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "离石区",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "孝义市",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "汾阳市",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "文水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "中阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "兴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "临县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "方山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "柳林县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "岚县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "交口县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "交城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        },
+        {
+            "name": "石楼县",
+            "cityId": {
+                "$REF$": "(lct.city,name=吕梁市)"
+            }
+        }
+    ]
+}

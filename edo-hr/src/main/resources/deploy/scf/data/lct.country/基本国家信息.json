@@ -1,0 +1,12 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "中国",
+            "code": "cn",
+            "flag": "china",
+            "phonePrefix": "+86",
+            "currencyCode": "CNY"
+        }
+    ]
+}

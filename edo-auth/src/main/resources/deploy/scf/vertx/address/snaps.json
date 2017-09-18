@@ -1,0 +1,12 @@
+[
+    {
+        "workClass": "com.vie.un.vtc.SnapsWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/SNAPS",
+        "consumerHandler": "com.vie.un.exchange.SnapsReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.JointWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/JOINT",
+        "consumerHandler": "com.vie.un.exchange.JointReplier"
+    }
+]

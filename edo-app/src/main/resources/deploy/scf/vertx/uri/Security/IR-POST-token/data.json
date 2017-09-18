@@ -1,0 +1,19 @@
+{
+    "uri": "/api/oth/token",
+    "identifier": "oth.access.token",
+    "in": "in.api.oth.token.post",
+    "method": "POST",
+    "paramType": "BODY",
+    "address": "MSG://MESSAGE/QUEUE/DATA",
+    "returnFilters":[
+        "authenticate",
+        "uniqueId"
+    ],
+    "requiredParam": [
+        "grant_type",
+        "client_id",
+        "code"
+    ],
+    "secure":false,
+    "responder": "com.vie.un.flow.JObjectRepdor"
+}

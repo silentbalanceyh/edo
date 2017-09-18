@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "内环到三环里",
+            "cityId":{
+                "$REF$":"(lct.city,name=宣武区)"
+            }
+        }
+    ]
+}

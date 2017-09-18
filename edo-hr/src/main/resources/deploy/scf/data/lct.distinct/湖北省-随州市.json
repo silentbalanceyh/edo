@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "曾都区",
+            "cityId": {
+                "$REF$": "(lct.city,name=随州市)"
+            }
+        },
+        {
+            "name": "广水市",
+            "cityId": {
+                "$REF$": "(lct.city,name=随州市)"
+            }
+        },
+        {
+            "name": "随县",
+            "cityId": {
+                "$REF$": "(lct.city,name=随州市)"
+            }
+        }
+    ]
+}

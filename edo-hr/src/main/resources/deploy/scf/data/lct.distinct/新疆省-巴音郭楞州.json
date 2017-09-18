@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "库尔勒市",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "尉犁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "和静县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "博湖县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "和硕县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "轮台县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "若羌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "且末县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        },
+        {
+            "name": "焉耆县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴音郭楞州)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "连州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "佛冈县",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "阳山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "清新县",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "连山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "连南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "清城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        },
+        {
+            "name": "英德市",
+            "cityId": {
+                "$REF$": "(lct.city,name=清远市)"
+            }
+        }
+    ]
+}

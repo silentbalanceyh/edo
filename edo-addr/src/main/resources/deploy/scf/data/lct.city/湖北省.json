@@ -1,0 +1,107 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "孝感市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "黄冈市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "咸宁市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "恩施州",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "鄂州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "荆门市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "随州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "神农架林区",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "武汉市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "黄石市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "襄阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "十堰市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "荆州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "宜昌市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "潜江市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "天门市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        },
+        {
+            "name": "仙桃市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUB)"
+            }
+        }
+    ]
+}

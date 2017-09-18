@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "玉龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=丽江市)"
+            }
+        },
+        {
+            "name": "华坪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=丽江市)"
+            }
+        },
+        {
+            "name": "永胜县",
+            "cityId": {
+                "$REF$": "(lct.city,name=丽江市)"
+            }
+        },
+        {
+            "name": "宁蒗县",
+            "cityId": {
+                "$REF$": "(lct.city,name=丽江市)"
+            }
+        },
+        {
+            "name": "古城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=丽江市)"
+            }
+        }
+    ]
+}

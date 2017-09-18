@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "勃利县",
+            "cityId":{
+                "$REF$":"(lct.city,name=七台河市)"
+            }
+        },
+        {
+            "name": "桃山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=七台河市)"
+            }
+        },
+        {
+            "name": "新兴区",
+            "cityId":{
+                "$REF$":"(lct.city,name=七台河市)"
+            }
+        },
+        {
+            "name": "茄子河区区",
+            "cityId":{
+                "$REF$":"(lct.city,name=七台河市)"
+            }
+        }
+    ]
+}

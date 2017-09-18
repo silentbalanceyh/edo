@@ -1,0 +1,61 @@
+{
+    "__view__":{
+        "namespace":"com.viev.location",
+        "name":"Distinct",
+        "identifier":"v.lct.distinct",
+        "statement":"((( LCT_DISTINCT AS D JOIN LCT_CITY AS C ON D.R_CITY_ID = C.PK_ID) JOIN LCT_STATE AS S ON C.R_STATE_ID = S.PK_ID) JOIN LCT_COUNTRY AS CT ON S.R_COUNTRY_ID = CT.PK_ID)"
+    },
+    "__columns__":[
+        {
+            "name":"uniqueId",
+            "type":"LongType",
+            "columnName":"D.PK_ID",
+            "columnType":"LONG"
+        },
+        {
+            "name":"name",
+            "columnName":"D.S_NAME"
+        },
+        {
+            "name":"order",
+            "columnName":"D.I_ORDER"
+        },
+        {
+            "name":"language",
+            "type":"StringType",
+            "columnName":"D.Z_LANGUAGE",
+            "columnType":"STRING1",
+            "comments":"语言信息从LCT_DISTINCT中取"
+        },
+        {
+            "name":"cityId",
+            "type":"LongType",
+            "columnName":"C.PK_ID AS R_CITY_ID",
+            "columnType":"LONG"
+        },
+        {
+            "name":"cityName",
+            "columnName":"C.S_NAME AS S_CITY_NAME"
+        },
+        {
+            "name":"stateId",
+            "type":"LongType",
+            "columnName":"S.PK_ID AS R_STATE_ID",
+            "columnType":"LONG"
+        },
+        {
+            "name":"stateName",
+            "columnName":"S.S_NAME AS S_STATE_NAME"
+        },
+        {
+            "name":"countryId",
+            "type":"LongType",
+            "columnName":"CT.PK_ID AS R_COUNTRY_ID",
+            "columnType":"LONG"
+        },
+        {
+            "name":"countryName",
+            "columnName":"CT.S_NAME AS S_COUNTRY_NAME"
+        }
+    ]
+}

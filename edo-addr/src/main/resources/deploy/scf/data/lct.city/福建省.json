@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "福州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "厦门市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "三明市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "莆田市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "泉州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "漳州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "南平市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "龙岩市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        },
+        {
+            "name": "宁德市",
+            "stateId":{
+                "$REF$":"(lct.state,code=FJ)"
+            }
+        }
+    ]
+}

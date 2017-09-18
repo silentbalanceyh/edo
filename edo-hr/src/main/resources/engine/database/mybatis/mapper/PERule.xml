@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vie.les.mybatis.mapper.PERuleMapper">
+    <resultMap type="Rule" id="ruleObject">
+        <id column="K_ID" property="uniqueId" />
+        <result column="S_NAME" property="name" />
+        <result column="S_TYPE" property="type" typeHandler="com.vie.les.mybatis.handler.DataTypeHandler" />
+        <result column="S_ORDER" property="order" />
+        <result column="J_COMPONENT_TYPE" property="componentType" typeHandler="org.apache.ibatis.type.EnumTypeHandler" />
+        <result column="J_COMPONENT_CLASS" property="componentClass" typeHandler="com.vie.les.mybatis.handler.ClassHandler" />
+        <result column="J_CONFIG" property="config" typeHandler="com.vie.les.mybatis.handler.JsonObjectHandler" />
+        <result column="J_ERROR_MSG" property="errorMessage" />
+        <result column="R_URI_ID" property="refUID" />
+    </resultMap>
+    <insert id="insert" parameterType="Rule" keyColumn="K_ID" keyProperty="uniqueId">
+        <![CDATA[
+            INSERT INTO EVX_RULE (
+                K_ID,
+                S_NAME,
+                S_TYPE,
+                S_ORDER,
+                J_COMPONENT_TYPE,
+                J_COMPONENT_CLASS,
+                J_CONFIG,
+                J_ERROR_MSG,
+                R_URI_ID
+            ) VALUES (
+                #{uniqueId},
+                #{name},
+                #{type, typeHandler=com.vie.les.mybatis.handler.DataTypeHandler},
+                #{order},
+                #{componentType,typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                #{componentClass,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{config, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{errorMessage},
+                #{refUID}
+            )
+        ]]>
+    </insert>
+    <insert id="batchInsert" parameterType="java.util.List">
+        <![CDATA[
+            INSERT INTO EVX_RULE (
+                K_ID,
+                S_NAME,
+                S_TYPE,
+                S_ORDER,
+                J_COMPONENT_TYPE,
+                J_COMPONENT_CLASS,
+                J_CONFIG,
+                J_ERROR_MSG,
+                R_URI_ID
+            ) VALUES
+        ]]>
+        <foreach collection="list" item="item" index="index" separator=",">
+            <![CDATA[(
+                #{item.uniqueId},
+                #{item.name},
+                #{item.type, typeHandler=com.vie.les.mybatis.handler.DataTypeHandler},
+                #{item.order},
+                #{item.componentType,typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                #{item.componentClass,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{item.config, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{item.errorMessage},
+                #{item.refUID}
+            )]]>
+        </foreach>
+    </insert>
+    <update id="update" parameterType="Rule" keyColumn="K_ID" keyProperty="uniqueId">
+        <![CDATA[
+            UPDATE EVX_RULE SET
+                S_NAME=#{name},
+                S_TYPE=#{type, typeHandler=com.vie.les.mybatis.handler.DataTypeHandler},
+                S_ORDER=#{order},
+                J_COMPONENT_TYPE=#{componentType,typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                J_COMPONENT_CLASS=#{componentClass,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                J_CONFIG=#{config,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                J_ERROR_MSG=#{errorMessage},
+                R_URI_ID=#{refUID}
+            WHERE K_ID=#{uniqueId}
+        ]]>
+    </update>
+    <delete id="deleteById" parameterType="String">
+        <![CDATA[
+            DELETE FROM EVX_RULE WHERE K_ID=#{uniqueId}
+        ]]>
+    </delete>
+    <delete id="batchDelete" parameterType="java.util.List">
+        <![CDATA[
+            DELETE FROM EVX_RULE WHERE K_ID IN
+        ]]>
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            <![CDATA[
+                #{item}
+            ]]>
+        </foreach>
+    </delete>
+    <delete id="purge">
+        <![CDATA[
+            DELETE FROM EVX_RULE
+        ]]>
+    </delete>
+    <delete id="deleteList" parameterType="String">
+        <![CDATA[
+            DELETE FROM EVX_RULE WHERE ${where}
+        ]]>
+    </delete>
+    <select id="count" resultType="java.lang.Long">
+        <![CDATA[
+            SELECT COUNT(K_ID) FROM EVX_RULE
+        ]]>
+    </select>
+    <select id="selectAll" resultMap="ruleObject">
+        <![CDATA[
+            SELECT * FROM EVX_RULE ORDER BY J_COMPONENT_TYPE, R_URI_ID, S_ORDER ASC
+        ]]>
+    </select>
+    <select id="queryList" parameterType="String" resultMap="ruleObject">
+        <![CDATA[
+            SELECT * FROM EVX_RULE WHERE ${where}
+        ]]>
+    </select>
+    <select id="selectById" parameterType="String" resultMap="ruleObject">
+        <![CDATA[
+            SELECT * FROM EVX_RULE WHERE K_ID=#{uniqueId}
+        ]]>
+    </select>
+    <select id="selectByPage" resultMap="ruleObject">
+        <!-- 动态SQL语句 -->
+        <if test="category = 'H2'">
+            <![CDATA[
+                SELECT * FROM EVX_RULE ORDER BY ${orderBy} LIMIT #{size} OFFSET #{start}
+            ]]>
+        </if>
+    </select>
+    <!-- <select id="selectByUri" resultMap="ruleObject"> -->
+    <!-- <![CDATA[ -->
+    <!-- SELECT * FROM EVX_RULE WHERE R_URI_ID=#{refId} ORDER BY J_COMPONENT_TYPE, S_ORDER ASC -->
+    <!-- ]]> -->
+    <!-- </select> -->
+    <!-- <select id="selectByUriAndCom" resultMap="ruleObject"> -->
+    <!-- <![CDATA[ -->
+    <!-- SELECT * FROM EVX_RULE WHERE R_URI_ID=#{refId,jdbcType=VARCHAR} AND J_COMPONENT_TYPE=#{type,jdbcType=VARCHAR} ORDER 
+        BY S_ORDER ASC -->
+    <!-- ]]> -->
+    <!-- </select> -->
+</mapper>

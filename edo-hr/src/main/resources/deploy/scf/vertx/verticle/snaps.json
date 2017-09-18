@@ -1,0 +1,14 @@
+[
+    {
+        "name": "com.vie.un.vtc.SnapsWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.JointWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    }
+]

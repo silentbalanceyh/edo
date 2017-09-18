@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "渭滨区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "金台区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "岐山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "太白县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "凤翔县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "陇县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "麟游县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "千阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "扶风县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "凤县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "眉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        },
+        {
+            "name": "陈仓区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宝鸡市)"
+            }
+        }
+    ]
+}

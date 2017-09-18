@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "东区",
+            "cityId":{
+                "$REF$": "(lct.city,name=攀枝花市)"
+            }
+        },
+        {
+            "name": "西区",
+            "cityId":{
+                "$REF$": "(lct.city,name=攀枝花市)"
+            }
+        },
+        {
+            "name": "仁和区",
+            "cityId":{
+                "$REF$": "(lct.city,name=攀枝花市)"
+            }
+        },
+        {
+            "name": "米易县",
+            "cityId":{
+                "$REF$": "(lct.city,name=攀枝花市)"
+            }
+        },
+        {
+            "name": "盐边县",
+            "cityId":{
+                "$REF$": "(lct.city,name=攀枝花市)"
+            }
+        }
+    ]
+}

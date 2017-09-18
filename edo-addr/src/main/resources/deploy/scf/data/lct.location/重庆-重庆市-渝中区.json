@@ -1,0 +1,50 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "默认居住地址",
+            "code": "CN.CQ.LCT.DEFAULT",
+            "address": "奥园康城A区10号楼8栋13-5",
+            "fullName": "重庆市渝中区黄杨路奥园康城A区10号楼8栋13-5",
+            "street1": "黄杨路",
+            "zip": "400040",
+            "distinctId":{
+                "$REF$":"(lct.distinct,name=全境,cityId=(lct.city,name=渝中区))"
+            },
+            "distinct":"渝中区",
+            "city":"重庆市",
+            "state":"重庆",
+            "country":"中国"
+        },
+        {
+            "name": "供应商地址1",
+            "code": "CN.CQ.LCT.VENDOR",
+            "address": "奥园康城A区10号楼8栋13-5供应商",
+            "fullName": "重庆市渝中区黄杨路奥园康城A区10号楼8栋13-5供应商",
+            "street1": "黄杨路",
+            "zip": "400040",
+            "distinctId":{
+                "$REF$":"(lct.distinct,name=全境,cityId=(lct.city,name=渝中区))"
+            },
+            "distinct":"渝中区",
+            "city":"重庆市",
+            "state":"重庆",
+            "country":"中国"
+        },
+        {
+            "name": "供应商地址2",
+            "code": "CN.CQ.LCT.VENDOR2",
+            "address": "奥园康城A区10号楼8栋13-5供应商2",
+            "fullName": "重庆市渝中区黄杨路奥园康城A区10号楼8栋13-5供应商2",
+            "street1": "黄杨路",
+            "zip": "400040",
+            "distinctId":{
+                "$REF$":"(lct.distinct,name=全境,cityId=(lct.city,name=渝中区))"
+            },
+            "distinct":"渝中区",
+            "city":"重庆市",
+            "state":"重庆",
+            "country":"中国"
+        }
+    ]
+}

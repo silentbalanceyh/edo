@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "西吉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=固原市)"
+            }
+        },
+        {
+            "name": "隆德县",
+            "cityId": {
+                "$REF$": "(lct.city,name=固原市)"
+            }
+        },
+        {
+            "name": "泾源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=固原市)"
+            }
+        },
+        {
+            "name": "彭阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=固原市)"
+            }
+        },
+        {
+            "name": "原州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=固原市)"
+            }
+        }
+    ]
+}

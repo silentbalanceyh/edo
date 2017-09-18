@@ -1,0 +1,173 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "竟陵街道",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "杨林街道",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "佛子山镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "多宝镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "拖市镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "张港镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "蒋场镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "汪场镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "渔薪镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "黄潭镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "岳口镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "横林镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "彭市镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "麻洋镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "多祥镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "干驿镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "马湾镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "卢市镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "小板镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "九真镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "皂市镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "胡市镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "石河镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "净潭乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "蒋湖农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "白茅湖农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "沉湖管委会",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        },
+        {
+            "name": "侨乡街道开发区",
+            "cityId": {
+                "$REF$": "(lct.city,name=天门市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.system",
+        "name": "Tabular",
+        "identifier": "sys.tabular",
+        "policy": "INCREMENT",
+        "comments": "OOB-Sytem-列表模型：存储专用常量相关信息"
+    },
+    "__keys__": [
+        {
+            "name": "UK_",
+            "columns": [
+                "S_CODE",
+                "S_TYPE",
+                "Z_SIGMA",
+                "Z_LANGUAGE"
+            ]
+        }
+    ],
+    "__fields__": [
+        {
+            "name": "name",
+            "columnName": "S_NAME",
+            "nullable": false
+        },
+        {
+            "name": "serial",
+            "columnName": "S_SERIAL"
+        },
+        {
+            "name": "type",
+            "columnName": "S_TYPE",
+            "comments": "标识Tabular的类型字符串",
+            "length": 32,
+            "nullable": false
+        },
+        {
+            "name": "comment",
+            "columnName": "T_COMMENT"
+        },
+        {
+            "name": "order",
+            "columnName": "I_ORDER",
+            "nullable": false
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "龙山区",
+            "cityId": {
+                "$REF$": "(lct.city,name=辽源市)"
+            }
+        },
+        {
+            "name": "西安区",
+            "cityId": {
+                "$REF$": "(lct.city,name=辽源市)"
+            }
+        },
+        {
+            "name": "东丰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=辽源市)"
+            }
+        },
+        {
+            "name": "东辽县",
+            "cityId": {
+                "$REF$": "(lct.city,name=辽源市)"
+            }
+        }
+    ]
+}

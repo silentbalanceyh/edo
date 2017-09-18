@@ -1,0 +1,30 @@
+<ehcache:config xmlns:ehcache="http://www.ehcache.org/v3"
+    xmlns:jcache="http://www.ehcache.org/v3/jsr107">
+    <!-- Tabular Cache -->
+    <ehcache:cache alias="TABULAR">
+        <ehcache:key-type>java.lang.String</ehcache:key-type>
+        <ehcache:value-type>io.vertx.core.json.JsonObject</ehcache:value-type>
+        <ehcache:resources>
+            <ehcache:heap unit="entries">100000</ehcache:heap>
+            <ehcache:offheap unit="MB">32</ehcache:offheap>
+        </ehcache:resources>
+    </ehcache:cache>
+    <!-- Category Cache -->
+    <ehcache:cache alias="CATEGORY">
+        <ehcache:key-type>java.lang.String</ehcache:key-type>
+        <ehcache:value-type>io.vertx.core.json.JsonObject</ehcache:value-type>
+        <ehcache:resources>
+            <ehcache:heap unit="entries">100000</ehcache:heap>
+            <ehcache:offheap unit="MB">32</ehcache:offheap>
+        </ehcache:resources>
+    </ehcache:cache>
+    <!-- Datum Cache -->
+    <ehcache:cache alias="DATUM">
+        <ehcache:key-type>java.lang.String</ehcache:key-type>
+        <ehcache:value-type>io.vertx.core.json.JsonObject</ehcache:value-type>
+        <ehcache:resources>
+            <ehcache:heap unit="entries">2000000</ehcache:heap>
+            <ehcache:offheap unit="MB">256</ehcache:offheap>
+        </ehcache:resources>
+    </ehcache:cache>
+</ehcache:config>

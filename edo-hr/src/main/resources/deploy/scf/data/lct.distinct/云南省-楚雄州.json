@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "元谋县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "南华县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "牟定县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "武定县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "大姚县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "双柏县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "禄丰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "永仁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "姚安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        },
+        {
+            "name": "楚雄市",
+            "cityId": {
+                "$REF$": "(lct.city,name=楚雄州)"
+            }
+        }
+    ]
+}

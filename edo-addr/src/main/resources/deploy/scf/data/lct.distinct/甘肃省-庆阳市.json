@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "庆城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "西峰区",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "镇原县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "合水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "华池县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "环县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        },
+        {
+            "name": "正宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=庆阳市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "白桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "大德镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "金峰镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "谭家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "天和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "白泉乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "九龙山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "大进镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "敦好镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "高桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "郭家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "和谦镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "河堰镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "厚坝镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "临江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "南门镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "南雅镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "渠口镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "铁桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "岳溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "温泉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "义和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "长沙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "赵家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "镇安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "中和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "竹溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "三汇口乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "白桥乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "大德乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "关面乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "金峰乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "麻柳乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "满月乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "谭家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "天和乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "巫山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "五通乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        },
+        {
+            "name": "紫水乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=开县)"
+            }
+        }
+    ]
+}

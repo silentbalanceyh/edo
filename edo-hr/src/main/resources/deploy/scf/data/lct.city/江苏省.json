@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "南京市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "徐州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "连云港市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "淮安市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "宿迁市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "盐城市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "扬州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "泰州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "南通市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "镇江市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "常州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "无锡市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        },
+        {
+            "name": "苏州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=JS)"
+            }
+        }
+    ]
+}

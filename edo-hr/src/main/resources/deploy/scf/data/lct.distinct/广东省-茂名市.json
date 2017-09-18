@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "茂南区",
+            "cityId": {
+                "$REF$": "(lct.city,name=茂名市)"
+            }
+        },
+        {
+            "name": "电白县",
+            "cityId": {
+                "$REF$": "(lct.city,name=茂名市)"
+            }
+        },
+        {
+            "name": "高州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=茂名市)"
+            }
+        },
+        {
+            "name": "化州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=茂名市)"
+            }
+        },
+        {
+            "name": "茂港区",
+            "cityId": {
+                "$REF$": "(lct.city,name=茂名市)"
+            }
+        },
+        {
+            "name": "信宜市",
+            "cityId": {
+                "$REF$": "(lct.city,name=茂名市)"
+            }
+        }
+    ]
+}

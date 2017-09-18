@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "清涧县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "绥德县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "佳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "神木县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "府谷县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "子洲县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "横山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "米脂县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "吴堡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "定边县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "榆阳区",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        },
+        {
+            "name": "靖边县",
+            "cityId": {
+                "$REF$": "(lct.city,name=榆林市)"
+            }
+        }
+    ]
+}

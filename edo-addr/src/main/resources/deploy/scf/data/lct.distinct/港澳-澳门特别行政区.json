@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "澳门半岛",
+            "cityId":{
+                "$REF$":"(lct.city,name=澳门特别行政区)"
+            }
+        },
+        {
+            "name": "氹仔",
+            "cityId":{
+                "$REF$":"(lct.city,name=澳门特别行政区)"
+            }
+        },
+        {
+            "name": "路氹城",
+            "cityId":{
+                "$REF$":"(lct.city,name=澳门特别行政区)"
+            }
+        },
+        {
+            "name": "路环",
+            "cityId":{
+                "$REF$":"(lct.city,name=澳门特别行政区)"
+            }
+        },
+        {
+            "name": "澳门特别行政区",
+            "cityId":{
+                "$REF$":"(lct.city,name=澳门特别行政区)"
+            }
+        }
+    ]
+}

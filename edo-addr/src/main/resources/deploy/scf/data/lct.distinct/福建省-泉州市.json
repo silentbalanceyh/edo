@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "泉港区",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "石狮市",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "南安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "惠安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "安溪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "德化县",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "永春县",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "金门县",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "洛江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "鲤城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "丰泽区",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        },
+        {
+            "name": "晋江市",
+            "cityId": {
+                "$REF$": "(lct.city,name=泉州市)"
+            }
+        }
+    ]
+}

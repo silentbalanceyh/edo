@@ -1,0 +1,42 @@
+[
+    {
+        "name": "opassword",
+        "type": "StringType",
+        "order": 1,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.LengthValidator",
+        "config": {
+            "minLength": 32,
+            "maxLength": 32
+        },
+        "errorMessage": "旧密码长度不合法，必须在客户端加密。"
+    },
+    {
+        "name": "npassword",
+        "type": "StringType",
+        "order": 2,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.LengthValidator",
+        "config": {
+            "minLength": 32,
+            "maxLength": 32
+        },
+        "errorMessage": "新密码长度不合法，必须在客户端加密。"
+    },
+    {
+        "name": "opassword",
+        "type": "StringType",
+        "order": 3,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.CrossMissingValidator",
+        "config": {
+            "$$PARAMS$$":null,
+            "identifier": "sec.user",
+            "filter":{
+                "id":"uniqueId",
+                "opassword":"password"
+            }
+        },
+        "errorMessage": "用户提供的旧密码不正确，请提供正确的旧密码！"
+    }
+]

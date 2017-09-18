@@ -1,0 +1,7 @@
+[
+    {
+        "name": "com.vie.un.vtc.RouterAgent",
+        "instances": 512,
+        "ha": true
+    }
+]

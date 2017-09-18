@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "六环以内",
+            "cityId":{
+                "$REF$":"(lct.city,name=昌平区)"
+            }
+        },
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=昌平区)"
+            }
+        },
+        {
+            "name": "城区以外",
+            "cityId":{
+                "$REF$":"(lct.city,name=昌平区)"
+            }
+        }
+    ]
+}

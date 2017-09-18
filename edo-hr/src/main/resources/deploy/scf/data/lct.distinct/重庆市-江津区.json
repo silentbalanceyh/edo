@@ -1,0 +1,155 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "四面山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "支坪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "白沙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "珞璜镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "柏林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "蔡家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "慈云镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "杜市镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "广兴镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "嘉平镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "贾嗣镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "李市镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "龙华镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "石蟆镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "石门镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "塘河镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "吴滩镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "西湖镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "夏坝镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "先锋镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "永兴镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "油溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "中山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        },
+        {
+            "name": "朱杨镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=江津区)"
+            }
+        }
+    ]
+}

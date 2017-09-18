@@ -1,0 +1,17 @@
+[
+    {
+        "name": "code",
+        "type": "StringType",
+        "order": 4,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.CrossMissingValidator",
+        "config": {
+            "$$PARAMS$$":null,
+            "identifier": "oth.auth.code",
+            "filter":{
+                "code":"code"
+            }
+        },
+        "errorMessage": "当前临时授权码过期，请重新申请授权码，提供合法code值。"
+    }
+]

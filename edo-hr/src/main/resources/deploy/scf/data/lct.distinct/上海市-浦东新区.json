@@ -1,0 +1,161 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "川沙新镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "祝桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "新场镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "高桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "惠南镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "北蔡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "合庆镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "唐镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "曹路镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "金桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "高行镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "高东镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "张江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "三林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "南汇新城镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "康桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "宣桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "书院镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "大团镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "周浦镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "芦潮港镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "泥城镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "航头镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "万祥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        },
+        {
+            "name": "老港镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=浦东新区)"
+            }
+        }
+    ]
+}

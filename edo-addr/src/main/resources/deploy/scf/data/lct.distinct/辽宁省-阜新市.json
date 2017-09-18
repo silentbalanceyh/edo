@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "阜新县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        },
+        {
+            "name": "彰武县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        },
+        {
+            "name": "海州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        },
+        {
+            "name": "大平区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        },
+        {
+            "name": "细河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        },
+        {
+            "name": "清河门区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        },
+        {
+            "name": "新邱区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阜新市)"
+            }
+        }
+    ]
+}

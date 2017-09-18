@@ -1,0 +1,197 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "王家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "洗新乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "中益乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "新乐乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "南宾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "黄水镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "临溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "龙沙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "马武镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "沙子镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "王场镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "西沱镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "下路镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "沿溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "渔池镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "悦崃镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "大歇乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "枫木乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "河嘴乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "黄鹤乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "金铃乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "金竹乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "冷水乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "黎场乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "六塘乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "龙潭乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "桥头乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "三河乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "三益乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "石家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        },
+        {
+            "name": "万朝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=石柱县)"
+            }
+        }
+    ]
+}

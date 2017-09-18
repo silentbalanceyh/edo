@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "韩城市",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "华阴市",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "蒲城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "华县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "潼关县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "大荔县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "澄城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "合阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "白水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "富平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        },
+        {
+            "name": "临渭区",
+            "cityId": {
+                "$REF$": "(lct.city,name=渭南市)"
+            }
+        }
+    ]
+}

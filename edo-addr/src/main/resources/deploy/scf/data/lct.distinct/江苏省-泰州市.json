@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "海陵区",
+            "cityId":{
+                "$REF$":"(lct.city,name=泰州市)"
+            }
+        },
+        {
+            "name": "高港区",
+            "cityId":{
+                "$REF$":"(lct.city,name=泰州市)"
+            }
+        },
+        {
+            "name": "泰兴市",
+            "cityId":{
+                "$REF$":"(lct.city,name=泰州市)"
+            }
+        },
+        {
+            "name": "靖江市",
+            "cityId":{
+                "$REF$":"(lct.city,name=泰州市)"
+            }
+        },
+        {
+            "name": "兴化市",
+            "cityId":{
+                "$REF$":"(lct.city,name=泰州市)"
+            }
+        },
+        {
+            "name": "姜堰区",
+            "cityId":{
+                "$REF$":"(lct.city,name=泰州市)"
+            }
+        }
+    ]
+}

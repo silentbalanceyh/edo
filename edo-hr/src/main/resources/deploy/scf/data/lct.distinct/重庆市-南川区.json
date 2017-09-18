@@ -1,0 +1,185 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "头渡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "兴隆镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "冷水关乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "德隆乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "峰岩乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "福寿乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "古花乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "河图乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "民主乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "木凉乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "乾丰乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "庆元乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "石莲乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "石溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "铁村乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "土溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "鱼泉乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "中桥乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "太平场镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "大观镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "大有镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "合溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "金山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "鸣玉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "南平镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "三泉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "神童镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "石墙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        },
+        {
+            "name": "水江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=南川区)"
+            }
+        }
+    ]
+}

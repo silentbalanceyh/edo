@@ -1,0 +1,119 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "丛台区",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "邯山区",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "复兴区",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "武安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "临漳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "永年县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "邯郸县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "峰峰矿区",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "曲周县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "馆陶县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "魏县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "成安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "大名县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "涉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "鸡泽县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "邱县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "广平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "肥乡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        },
+        {
+            "name": "磁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=邯郸市)"
+            }
+        }
+    ]
+}

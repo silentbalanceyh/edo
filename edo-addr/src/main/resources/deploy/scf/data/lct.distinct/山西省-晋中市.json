@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "介休市",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "晋阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "祁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "左权县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "寿阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "太谷县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "和顺县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "灵石县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "平遥县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "榆社县",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        },
+        {
+            "name": "榆次区",
+            "cityId": {
+                "$REF$": "(lct.city,name=晋中市)"
+            }
+        }
+    ]
+}

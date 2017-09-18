@@ -1,0 +1,132 @@
+{
+    "type": "ENTITY",
+    "data":[
+        {
+            "name": "成都市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "自贡市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "攀枝花市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "泸州市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "德阳市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "绵阳市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "广元市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "遂宁市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "内江市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "乐山市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "南充市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "眉山市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "宜宾市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "广安市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "达州市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "雅安市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "巴中市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "资阳市",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "阿坝藏族羌族自治州",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "甘孜藏族自治州",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        },
+        {
+            "name": "凉山彝族自治州",
+            "stateId": {
+                "$REF$": "(lct.state,code=SC)"
+            }
+        }
+        
+    ] 
+}

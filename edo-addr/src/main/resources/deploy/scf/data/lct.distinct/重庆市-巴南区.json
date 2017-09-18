@@ -1,0 +1,119 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "南泉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "一品镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "南彭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "惠民镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "麻柳嘴镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "天星寺镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "双河口镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "界石镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "安澜镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "跳石镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "木洞镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "丰盛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "二圣镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "东泉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "姜家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "接龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "石滩镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        },
+        {
+            "name": "石龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巴南区)"
+            }
+        }
+    ]
+}

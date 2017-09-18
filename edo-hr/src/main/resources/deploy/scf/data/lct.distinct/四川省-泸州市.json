@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "江阳区",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        },
+        {
+            "name": "龙马潭区",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        },
+        {
+            "name": "纳溪区",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        },
+        {
+            "name": "泸县",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        },
+        {
+            "name": "合江县",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        },
+        {
+            "name": "叙永县",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        },
+        {
+            "name": "古蔺县",
+            "cityId":{
+                "$REF$":"(lct.city,name=泸州市)"
+            }
+        }
+    ]
+}

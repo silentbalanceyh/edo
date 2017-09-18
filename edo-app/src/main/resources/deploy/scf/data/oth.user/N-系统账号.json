@@ -1,0 +1,10 @@
+{
+    "type":"ENTITY",
+    "data":[
+        {
+            "clientId":{
+                "$REF$":"(sec.user,username=lang.yu)"
+            }
+        }
+    ]
+}

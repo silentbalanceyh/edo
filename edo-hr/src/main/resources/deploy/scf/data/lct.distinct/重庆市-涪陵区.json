@@ -1,0 +1,251 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "李渡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "白涛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "百胜镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "堡子镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "焦石镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "蔺市镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "龙桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "龙潭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "马武镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "南沱镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "青羊镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "清溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "石沱镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "新妙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "义和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "增福乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "珍溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "镇安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "致韩镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "土地坡乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "武陵山乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "中峰乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "梓里乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "丛林乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "大木乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "惠民乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "酒店乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "聚宝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "卷洞乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "两汇乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "罗云乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "明家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "仁义乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "山窝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "石和乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "石龙乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "太和乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "天台乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "同乐乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        },
+        {
+            "name": "新村乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=涪陵区)"
+            }
+        }
+    ]
+}

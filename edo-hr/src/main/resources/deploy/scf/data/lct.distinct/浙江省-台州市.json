@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "临海市",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "三门县",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "天台县",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "仙居县",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "黄岩区",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "椒江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "路桥区",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "温岭市",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        },
+        {
+            "name": "玉环县",
+            "cityId": {
+                "$REF$": "(lct.city,name=台州市)"
+            }
+        }
+    ]
+}

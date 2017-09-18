@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "兴山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "向阳区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "工农区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "南山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "兴安区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "东山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "萝北县",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        },
+        {
+            "name": "绥滨县",
+            "cityId":{
+                "$REF$":"(lct.city,name=鹤岗市)"
+            }
+        }
+    ]
+}

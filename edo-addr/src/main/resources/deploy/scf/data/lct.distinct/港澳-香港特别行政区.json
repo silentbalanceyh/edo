@@ -1,0 +1,125 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "中西区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "东区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "九龙城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "观塘区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "深水埗区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "湾仔区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "黄大仙区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "油尖旺区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "离岛区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "葵青区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "北区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "西贡区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "沙田区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "屯门区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "大埔区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "荃湾区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "元朗区",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "香港",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "九龙",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        },
+        {
+            "name": "新界",
+            "cityId":{
+                "$REF$":"(lct.city,name=香港特别行政区)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.oauth",
+        "name": "AccessToken",
+        "identifier": "oth.access.token",
+        "policy": "GUID"
+    },
+    "__keys__": [],
+    "__fields__": [
+        {
+            "name": "token",
+            "columnName": "B_TOKEN",
+            "nullable": false,
+            "length": 512
+        },
+        {
+            "name": "expiredTime",
+            "columnName": "L_EXPIRED_TIME",
+            "nullable": false
+        },
+        {
+            "name": "authenticate",
+            "columnName": "B_AUTH",
+            "nullable": false,
+            "length": 512
+        },
+        {
+            "name": "refreshToken",
+            "columnName": "B_REFRESH_TOKEN",
+            "nullable": false,
+            "length": 512
+        }
+    ]
+}

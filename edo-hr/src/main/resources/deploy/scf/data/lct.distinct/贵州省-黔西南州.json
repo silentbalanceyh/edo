@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "兴义市",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "望谟县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "兴仁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "普安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "册亨县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "晴隆县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "贞丰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        },
+        {
+            "name": "安龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔西南州)"
+            }
+        }
+    ]
+}

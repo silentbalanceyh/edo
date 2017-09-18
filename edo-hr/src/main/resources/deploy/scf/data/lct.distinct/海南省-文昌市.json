@@ -1,0 +1,179 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "文城镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "重兴镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "蓬莱镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "会文镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "东路镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "潭牛镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "东阁镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "文教镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "东郊镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "龙楼镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "昌洒镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "翁田镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "抱罗镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "冯坡镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "锦山镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "铺前镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "公坡镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "迈号镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "清澜镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "南阳镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "新桥镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "头苑镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "宝芳乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "龙马乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "湖山乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "东路农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "南阳农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "罗豆农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        },
+        {
+            "name": "橡胶研究所",
+            "cityId": {
+                "$REF$": "(lct.city,name=文昌市)"
+            }
+        }
+    ]
+}

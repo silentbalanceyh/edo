@@ -1,0 +1,14 @@
+{
+    "uri": "/api/user/cipher",
+    "identifier": "sec.user",
+    "in": "in.api.user.cipher.put",
+    "method": "PUT",
+    "paramType": "BODY",
+    "address": "MSG://MESSAGE/QUEUE/DATA",
+    "requiredParam": [
+        "id",
+        "opassword",
+        "npassword"
+    ],
+    "responder": "com.vie.un.flow.LogicalRepdor"
+}

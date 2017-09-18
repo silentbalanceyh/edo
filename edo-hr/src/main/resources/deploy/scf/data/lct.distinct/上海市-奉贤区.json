@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "南桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "奉城镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "四团镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "柘林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "庄行镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "金汇镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "青村镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        },
+        {
+            "name": "海湾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=奉贤区)"
+            }
+        }
+    ]
+}

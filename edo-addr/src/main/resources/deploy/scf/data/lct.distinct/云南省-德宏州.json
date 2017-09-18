@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "芒市",
+            "cityId": {
+                "$REF$": "(lct.city,name=德宏州)"
+            }
+        },
+        {
+            "name": "瑞丽市",
+            "cityId": {
+                "$REF$": "(lct.city,name=德宏州)"
+            }
+        },
+        {
+            "name": "盈江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=德宏州)"
+            }
+        },
+        {
+            "name": "梁河县",
+            "cityId": {
+                "$REF$": "(lct.city,name=德宏州)"
+            }
+        },
+        {
+            "name": "陇川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=德宏州)"
+            }
+        }
+    ]
+}

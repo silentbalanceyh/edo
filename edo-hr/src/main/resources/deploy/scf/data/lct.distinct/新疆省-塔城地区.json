@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "塔城市",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        },
+        {
+            "name": "乌苏市",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        },
+        {
+            "name": "额敏县",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        },
+        {
+            "name": "裕民县",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        },
+        {
+            "name": "沙湾县",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        },
+        {
+            "name": "托里县",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        },
+        {
+            "name": "和布克赛尔县",
+            "cityId": {
+                "$REF$": "(lct.city,name=塔城地区)"
+            }
+        }
+    ]
+}

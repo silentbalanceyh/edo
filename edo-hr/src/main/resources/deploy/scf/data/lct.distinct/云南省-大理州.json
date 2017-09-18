@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "剑川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "弥渡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "云龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "洱源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "鹤庆县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "宾川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "祥云县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "永平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "巍山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "漾濞县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "南涧县",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        },
+        {
+            "name": "大理市",
+            "cityId": {
+                "$REF$": "(lct.city,name=大理州)"
+            }
+        }
+    ]
+}

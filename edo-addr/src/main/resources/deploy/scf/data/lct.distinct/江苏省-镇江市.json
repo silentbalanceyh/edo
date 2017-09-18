@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "润州区",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "京口区",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "丹徒区",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "镇江新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "丹阳市",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "句容市",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "扬中市",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        },
+        {
+            "name": "丹徒新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=镇江市)"
+            }
+        }
+    ]
+}

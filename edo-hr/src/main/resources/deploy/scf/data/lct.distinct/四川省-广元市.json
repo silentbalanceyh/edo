@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "利州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        },
+        {
+            "name": "昭化区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        },
+        {
+            "name": "朝天区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        },
+        {
+            "name": "剑阁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        },
+        {
+            "name": "旺苍县",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        },
+        {
+            "name": "青川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        },
+        {
+            "name": "苍溪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=广元市)"
+            }
+        }
+    ]
+}

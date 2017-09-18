@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "石景山城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=石景山区)"
+            }
+        },
+        {
+            "name": "四环到五环内",
+            "cityId":{
+                "$REF$":"(lct.city,name=石景山区)"
+            }
+        },
+        {
+            "name": "八大处科技园区",
+            "cityId":{
+                "$REF$":"(lct.city,name=石景山区)"
+            }
+        }
+    ]
+}

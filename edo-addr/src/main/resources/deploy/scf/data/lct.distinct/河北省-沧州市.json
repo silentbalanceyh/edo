@@ -1,0 +1,101 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "沧县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "泊头市",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "河间市",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "献县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "肃宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "青县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "东光县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "吴桥县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "南皮县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "盐山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "海兴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "孟村县",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "运河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "新华区",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "任丘市",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        },
+        {
+            "name": "黄骅市",
+            "cityId": {
+                "$REF$": "(lct.city,name=沧州市)"
+            }
+        }
+    ]
+}

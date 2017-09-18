@@ -1,0 +1,17 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "其它地区",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝坻区)"
+            }
+        },
+        {
+            "name": "城关镇、马家店开发区、天宝工业园",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝坻区)"
+            }
+        }
+    ]
+}

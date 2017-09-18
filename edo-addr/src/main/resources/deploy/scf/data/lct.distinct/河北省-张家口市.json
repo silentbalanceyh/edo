@@ -1,0 +1,107 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "怀安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "沽源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "宣化县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "宣化区",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "康保县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "张北县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "阳原县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "赤城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "崇礼县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "尚义县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "蔚县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "涿鹿县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "万全县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "下花园区",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "桥西区",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "桥东区",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        },
+        {
+            "name": "怀来县",
+            "cityId": {
+                "$REF$": "(lct.city,name=张家口市)"
+            }
+        }
+    ]
+}

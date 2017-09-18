@@ -1,0 +1,15 @@
+Criteria专用说明
+字段信息：
+1. name=, name：等于
+2. name<：小于
+3. name>：大于
+4. name<=：小于等于
+5. name>=: 大于等于
+6. name<>：不等于
+7. name!n：为空
+8. name!e：不为空
+9. name~!：以开始...start with
+10. name!~：以结束...end with
+11. name~~：标准的Like，ANYWHERE模式
+12. name!i: IN (?,?,?)
+解析时直接调用criteria函数，该函数可传入回调函数

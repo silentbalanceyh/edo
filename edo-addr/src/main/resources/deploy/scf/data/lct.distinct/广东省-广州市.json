@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "天河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "海珠区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "荔湾区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "越秀区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "番禺区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "花都区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "萝岗区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "白云区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "南沙区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "黄埔区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "增城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "从化区",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        },
+        {
+            "name": "广州大学城",
+            "cityId": {
+                "$REF$": "(lct.city,name=广州市)"
+            }
+        }
+    ]
+}

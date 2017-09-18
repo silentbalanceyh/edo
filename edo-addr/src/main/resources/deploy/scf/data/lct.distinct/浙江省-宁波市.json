@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "海曙区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "江东区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "慈溪市",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "北仑区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "镇海区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "鄞州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "江北区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "余姚市",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "奉化市",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "宁海县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "象山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        },
+        {
+            "name": "高新科技开发区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宁波市)"
+            }
+        }
+    ]
+}

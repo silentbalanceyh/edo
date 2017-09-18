@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=益阳市)"
+            }
+        },
+        {
+            "name": "桃江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=益阳市)"
+            }
+        },
+        {
+            "name": "安化县",
+            "cityId": {
+                "$REF$": "(lct.city,name=益阳市)"
+            }
+        },
+        {
+            "name": "赫山区",
+            "cityId": {
+                "$REF$": "(lct.city,name=益阳市)"
+            }
+        },
+        {
+            "name": "资阳区",
+            "cityId": {
+                "$REF$": "(lct.city,name=益阳市)"
+            }
+        },
+        {
+            "name": "沅江市",
+            "cityId": {
+                "$REF$": "(lct.city,name=益阳市)"
+            }
+        }
+    ]
+}

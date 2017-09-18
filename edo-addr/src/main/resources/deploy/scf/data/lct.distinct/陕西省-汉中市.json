@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "汉台区",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "南镇县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "城固县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "洋县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "佛坪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "留坝县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "镇巴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "西乡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "勉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "略阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        },
+        {
+            "name": "宁强县",
+            "cityId": {
+                "$REF$": "(lct.city,name=汉中市)"
+            }
+        }
+    ]
+}

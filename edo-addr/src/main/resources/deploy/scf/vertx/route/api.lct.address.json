@@ -1,0 +1,14 @@
+[
+    {
+        "path":"/lct/countries"
+    },
+    {
+        "path":"/lct/states/q/country/:countryId"
+    },
+    {
+        "path":"/lct/cities/q/state/:stateId"
+    },
+    {
+        "path":"/lct/distincts/q/city/:cityId"
+    }
+]

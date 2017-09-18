@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "天元区",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "石峰区",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "芦淞区",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "荷塘区",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "醴陵市",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "株洲县",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "攸县",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "茶陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        },
+        {
+            "name": "炎陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=株洲市)"
+            }
+        }
+    ]
+}

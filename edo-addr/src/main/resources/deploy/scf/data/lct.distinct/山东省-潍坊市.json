@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "潍城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "奎文区",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "高新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "寒亭区",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "寿光市",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "青州市",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "诸城市",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "安丘市",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "高密市",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "昌邑市",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "昌乐县",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "临朐县",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        },
+        {
+            "name": "坊子区",
+            "cityId":{
+                "$REF$":"(lct.city,name=潍坊市)"
+            }
+        }
+    ]
+}

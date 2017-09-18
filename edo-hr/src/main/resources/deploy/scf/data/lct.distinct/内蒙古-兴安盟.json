@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "乌兰浩特市",
+            "cityId":{
+                "$REF$":"(lct.city,name=兴安盟)"
+            }
+        },
+        {
+            "name": "阿尔山市",
+            "cityId":{
+                "$REF$":"(lct.city,name=兴安盟)"
+            }
+        },
+        {
+            "name": "突泉县",
+            "cityId":{
+                "$REF$":"(lct.city,name=兴安盟)"
+            }
+        },
+        {
+            "name": "扎赉特旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=兴安盟)"
+            }
+        },
+        {
+            "name": "科尔沁右翼前旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=兴安盟)"
+            }
+        },
+        {
+            "name": "科尔沁右翼中旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=兴安盟)"
+            }
+        }
+    ]
+}

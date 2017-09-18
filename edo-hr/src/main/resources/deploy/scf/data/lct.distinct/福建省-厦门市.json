@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "思明区",
+            "cityId": {
+                "$REF$": "(lct.city,name=厦门市)"
+            }
+        },
+        {
+            "name": "湖里区",
+            "cityId": {
+                "$REF$": "(lct.city,name=厦门市)"
+            }
+        },
+        {
+            "name": "翔安区",
+            "cityId": {
+                "$REF$": "(lct.city,name=厦门市)"
+            }
+        },
+        {
+            "name": "海沧区",
+            "cityId": {
+                "$REF$": "(lct.city,name=厦门市)"
+            }
+        },
+        {
+            "name": "集美区",
+            "cityId": {
+                "$REF$": "(lct.city,name=厦门市)"
+            }
+        },
+        {
+            "name": "同安区",
+            "cityId": {
+                "$REF$": "(lct.city,name=厦门市)"
+            }
+        }
+    ]
+}

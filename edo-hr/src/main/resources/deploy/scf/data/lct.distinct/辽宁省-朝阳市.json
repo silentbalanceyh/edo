@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "凌源市",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        },
+        {
+            "name": "北票市",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        },
+        {
+            "name": "朝阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        },
+        {
+            "name": "双塔区",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        },
+        {
+            "name": "建平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        },
+        {
+            "name": "龙城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        },
+        {
+            "name": "喀喇沁左翼县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朝阳市)"
+            }
+        }
+    ]
+}

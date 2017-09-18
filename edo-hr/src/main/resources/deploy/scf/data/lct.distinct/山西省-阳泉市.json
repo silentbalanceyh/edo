@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "盂县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阳泉市)"
+            }
+        },
+        {
+            "name": "平定县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阳泉市)"
+            }
+        },
+        {
+            "name": "郊区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阳泉市)"
+            }
+        },
+        {
+            "name": "城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阳泉市)"
+            }
+        },
+        {
+            "name": "矿区",
+            "cityId": {
+                "$REF$": "(lct.city,name=阳泉市)"
+            }
+        }
+    ]
+}

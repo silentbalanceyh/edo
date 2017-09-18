@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "潢川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "淮滨县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "息县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "新县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "固始县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "罗山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "光山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "商城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "平桥区",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        },
+        {
+            "name": "浉河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=信阳市)"
+            }
+        }
+    ]
+}

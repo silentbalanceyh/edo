@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "巴州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴中市)"
+            }
+        },
+        {
+            "name": "平昌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴中市)"
+            }
+        },
+        {
+            "name": "通江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴中市)"
+            }
+        },
+        {
+            "name": "南江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴中市)"
+            }
+        },
+        {
+            "name": "恩阳区",
+            "cityId": {
+                "$REF$": "(lct.city,name=巴中市)"
+            }
+        }
+    ]
+}

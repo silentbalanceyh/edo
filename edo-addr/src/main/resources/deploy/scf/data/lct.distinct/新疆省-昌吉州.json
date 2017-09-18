@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "昌吉市",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        },
+        {
+            "name": "阜康市",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        },
+        {
+            "name": "奇台县",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        },
+        {
+            "name": "玛纳斯县",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        },
+        {
+            "name": "吉木萨尔县",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        },
+        {
+            "name": "呼图壁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        },
+        {
+            "name": "木垒县",
+            "cityId": {
+                "$REF$": "(lct.city,name=昌吉州)"
+            }
+        }
+    ]
+}

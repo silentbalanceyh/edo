@@ -1,0 +1,95 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "金江镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "老城镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "瑞溪镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "永发镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "加乐镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "文儒镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "中兴镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "仁兴镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "福山镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "桥头镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "大丰镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "红光农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "西达农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        },
+        {
+            "name": "金安农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=澄迈县)"
+            }
+        }
+    ]
+}

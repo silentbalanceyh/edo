@@ -1,0 +1,9 @@
+{
+    "uri": "/api/lct/cities/q/state/:stateId",
+    "identifier":"lct.city",
+    "address":"MSG://MESSAGE/QUEUE/DATA",
+    "requiredParam":[
+        "stateId"
+    ],
+    "responder":"com.vie.un.flow.JArrayRepdor"
+}

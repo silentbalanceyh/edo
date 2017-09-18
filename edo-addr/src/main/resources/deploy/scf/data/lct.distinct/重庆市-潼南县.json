@@ -1,0 +1,125 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "柏梓镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "宝龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "崇龛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "古溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "龙形镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "米心镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "群力镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "上和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "双江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "太安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "塘坝镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "卧佛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "五桂镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "小渡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "新胜镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "玉溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "别口乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "田家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        },
+        {
+            "name": "寿桥乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=潼南县)"
+            }
+        }
+    ]
+}

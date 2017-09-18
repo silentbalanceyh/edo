@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "资兴市",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "宜章县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "安仁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "汝城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "嘉禾县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "临武县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "桂东县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "永兴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "桂阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "北湖区",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        },
+        {
+            "name": "苏仙区",
+            "cityId": {
+                "$REF$": "(lct.city,name=郴州市)"
+            }
+        }
+    ]
+}

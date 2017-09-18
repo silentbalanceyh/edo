@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "田家庵区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "大通区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "谢家集区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "八公山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "寿县",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "凤台县",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "潘集区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        },
+        {
+            "name": "淮南高新技术开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮南市)"
+            }
+        }
+    ]
+}

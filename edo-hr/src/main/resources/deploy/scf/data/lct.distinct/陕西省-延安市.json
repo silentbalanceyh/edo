@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "宝塔区",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "安塞县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "洛川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "子长县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "黄陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "延长县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "宜川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "延川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "甘泉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "富县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "志丹县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "黄龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        },
+        {
+            "name": "吴起县",
+            "cityId": {
+                "$REF$": "(lct.city,name=延安市)"
+            }
+        }
+    ]
+}

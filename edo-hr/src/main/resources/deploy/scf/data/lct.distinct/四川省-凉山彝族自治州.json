@@ -1,0 +1,107 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "西昌市",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "木里藏族自治县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "盐源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "德昌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "会理县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "会东县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "宁南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "普格县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "布拖县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "金阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "昭觉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "喜德县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "冕宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "越西县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "甘洛县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "美姑县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        },
+        {
+            "name": "雷波县",
+            "cityId": {
+                "$REF$": "(lct.city,name=凉山彝族自治州)"
+            }
+        }
+    ]
+}

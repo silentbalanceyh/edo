@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "内环以内",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "白市驿镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "铜罐驿镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "华岩镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "巴福镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "含谷镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "金凤镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "石板镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "陶家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "西彭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        },
+        {
+            "name": "走马镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=九龙坡区)"
+            }
+        }
+    ]
+}

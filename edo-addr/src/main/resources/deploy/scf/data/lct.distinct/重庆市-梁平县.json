@@ -1,0 +1,203 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "梁山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "柏家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "碧山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "大观镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "福禄镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "合兴镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "和林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "虎城镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "回龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "金带镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "聚奎镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "礼让镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "龙门镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "明达镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "蟠龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "屏锦镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "仁贤镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "石安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "文化镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "新盛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "荫平镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "袁驿镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "云龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "竹山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "安胜乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "铁门乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "紫照乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "曲水乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "龙胜乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "城北乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "城东乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        },
+        {
+            "name": "复平乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=梁平县)"
+            }
+        }
+    ]
+}

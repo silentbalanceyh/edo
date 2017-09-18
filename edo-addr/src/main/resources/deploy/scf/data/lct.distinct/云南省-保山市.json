@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "隆阳区",
+            "cityId": {
+                "$REF$": "(lct.city,name=保山市)"
+            }
+        },
+        {
+            "name": "施甸县",
+            "cityId": {
+                "$REF$": "(lct.city,name=保山市)"
+            }
+        },
+        {
+            "name": "昌宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=保山市)"
+            }
+        },
+        {
+            "name": "龙陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=保山市)"
+            }
+        },
+        {
+            "name": "腾冲县",
+            "cityId": {
+                "$REF$": "(lct.city,name=保山市)"
+            }
+        }
+    ]
+}

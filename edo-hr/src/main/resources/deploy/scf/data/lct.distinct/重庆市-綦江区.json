@@ -1,0 +1,167 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "三江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "安稳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "打通镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "丁山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "东溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "扶欢镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "赶水镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "郭扶镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "横山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "隆盛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "三角镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "石壕镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "石角镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "新盛镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "永城镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "永新镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "中峰镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "篆塘镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "丛林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "关坝镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "黑山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "金桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "南通镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "青年镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "石林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        },
+        {
+            "name": "万东镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=綦江区)"
+            }
+        }
+    ]
+}

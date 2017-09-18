@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "钟楼区",
+            "cityId":{
+                "$REF$":"(lct.city,name=常州市)"
+            }
+        },
+        {
+            "name": "天宁区",
+            "cityId":{
+                "$REF$":"(lct.city,name=常州市)"
+            }
+        },
+        {
+            "name": "武进区",
+            "cityId":{
+                "$REF$":"(lct.city,name=常州市)"
+            }
+        },
+        {
+            "name": "新北区",
+            "cityId":{
+                "$REF$":"(lct.city,name=常州市)"
+            }
+        },
+        {
+            "name": "金坛区",
+            "cityId":{
+                "$REF$":"(lct.city,name=常州市)"
+            }
+        },
+        {
+            "name": "溧阳市",
+            "cityId":{
+                "$REF$":"(lct.city,name=常州市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "台山市",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        },
+        {
+            "name": "新会区",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        },
+        {
+            "name": "鹤山市",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        },
+        {
+            "name": "江海区",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        },
+        {
+            "name": "蓬江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        },
+        {
+            "name": "开平市",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        },
+        {
+            "name": "恩平市",
+            "cityId": {
+                "$REF$": "(lct.city,name=江门市)"
+            }
+        }
+    ]
+}

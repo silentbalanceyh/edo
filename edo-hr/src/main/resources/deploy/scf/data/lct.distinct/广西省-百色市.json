@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "右江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "平果县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "乐业县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "田阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "西林县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "田林县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "德保县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "靖西县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "田东县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "那坡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "隆林县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        },
+        {
+            "name": "凌云县",
+            "cityId": {
+                "$REF$": "(lct.city,name=百色市)"
+            }
+        }
+    ]
+}

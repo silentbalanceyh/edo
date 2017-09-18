@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "阿拉尔市",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿拉尔市)"
+            }
+        }
+    ]
+}

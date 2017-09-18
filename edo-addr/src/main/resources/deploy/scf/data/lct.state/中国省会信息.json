@@ -1,0 +1,176 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "重庆市",
+            "code": "CQ",
+            "alias": "渝"
+        },
+        {
+            "name": "四川省",
+            "code": "SC",
+            "alias":"蜀"
+        },
+        {
+            "name": "北京市",
+            "code": "BJ",
+            "alias":"京"
+        },
+        {
+            "name": "上海市",
+            "code": "SH",
+            "alias":"泸"
+        },
+        {
+            "name": "天津市",
+            "code": "TJ",
+            "alias":"津"
+        },
+        {
+            "name": "河北省",
+            "code": "HEB",
+            "alias":"冀"
+        },
+        {
+            "name": "山西省",
+            "code": "SX",
+            "alias":"晋"
+        },
+        {
+            "name": "河南省",
+            "code": "HEN",
+            "alias":"豫"
+        },
+        {
+            "name": "辽宁省",
+            "code": "LN",
+            "alias":"辽"
+        },
+        {
+            "name": "吉林省",
+            "code": "JL",
+            "alias":"吉"
+        },
+        {
+            "name": "黑龙江",
+            "code": "HLJ",
+            "alias":"黑"
+        },
+        {
+            "name": "内蒙古",
+            "code": "NMG",
+            "alias":"蒙"
+        },
+        {
+            "name": "江苏省",
+            "code": "JS",
+            "alias":"苏"
+        },
+        {
+            "name": "山东省",
+            "code": "SD",
+            "alias":"鲁"
+        },
+        {
+            "name": "安徽省",
+            "code": "AH",
+            "alias":"皖"
+        },
+        {
+            "name": "浙江省",
+            "code": "ZJ",
+            "alias":"浙"
+        },
+        {
+            "name": "福建省",
+            "code": "FJ",
+            "alias":"闽"
+        },
+        {
+            "name": "湖北省",
+            "code": "HUB",
+            "alias":"鄂"
+        },
+        {
+            "name": "湖南省",
+            "code": "HUN",
+            "alias":"湘"
+        },
+        {
+            "name": "广东省",
+            "code": "GD",
+            "alias":"粤"
+        },
+        {
+            "name": "广西省",
+            "code": "GX",
+            "alias":"桂"
+        },
+        {
+            "name": "江西省",
+            "code": "JX",
+            "alias":"赣"
+        },
+        {
+            "name": "海南省",
+            "code": "HAN",
+            "alias":"琼"
+        },
+        {
+            "name": "贵州省",
+            "code": "GZ",
+            "alias":"黔"
+        },
+        {
+            "name": "云南省",
+            "code": "YN",
+            "alias":"滇"
+        },
+        {
+            "name": "西藏",
+            "code": "XZ",
+            "alias":"藏"
+        },
+        {
+            "name": "陕西省",
+            "code": "SX1",
+            "alias":"秦"
+        },
+        {
+            "name": "甘肃省",
+            "code": "GS",
+            "alias":"陇"
+        },
+        {
+            "name": "青海省",
+            "code": "QH",
+            "alias":"青"
+        },
+        {
+            "name": "宁夏省",
+            "code": "NX",
+            "alias":"宁"
+        },
+        {
+            "name": "新疆省",
+            "code": "XJ",
+            "alias":"新"
+        },
+        {
+            "name": "台湾省",
+            "code": "TW",
+            "alias":"宝岛"
+        },
+        {
+            "name": "港澳",
+            "code": "GA",
+            "alias":"香港澳门"
+        },
+        {
+            "name": "钓鱼岛",
+            "code": "DYD",
+            "alias":"钓鱼岛"
+        }
+    ]      
+}       
+    

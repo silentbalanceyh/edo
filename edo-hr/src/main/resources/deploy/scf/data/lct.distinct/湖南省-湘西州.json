@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "吉首市",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "古丈县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "龙山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "永顺县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "泸溪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "凤凰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "花垣县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        },
+        {
+            "name": "保靖县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘西州)"
+            }
+        }
+    ]
+}

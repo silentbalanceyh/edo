@@ -1,0 +1,35 @@
+{
+    "__meta__":{
+        "namespace":"com.vie.rbac",
+        "name":"Permission",
+        "identifier":"sec.permission",
+        "policy":"GUID"
+    },
+    "__keys__":[
+        {
+            "name":"UK_",
+            "columns":[
+                "S_NAME"
+            ]
+        }
+    ],
+    "__fields__":[
+        {
+            "name":"name",
+            "columnName":"S_NAME",
+            "unique":true,
+            "nullable":false
+        },
+        {
+            "name":"category",
+            "type":"LongType",
+            "columnName":"H_CAT_ID",
+            "columnType":"LONG",
+            "nullable":false
+        },
+        {
+            "name":"inherit",
+            "columnName":"IS_INHERIT"
+        }
+    ]
+}

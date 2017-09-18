@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "林芝县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        },
+        {
+            "name": "工布江达县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        },
+        {
+            "name": "米林县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        },
+        {
+            "name": "墨脱县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        },
+        {
+            "name": "波密县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        },
+        {
+            "name": "察隅县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        },
+        {
+            "name": "朗县",
+            "cityId": {
+                "$REF$": "(lct.city,name=林芝地区)"
+            }
+        }
+    ]
+}

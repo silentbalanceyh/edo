@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "文山市",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "麻栗坡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "砚山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "广南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "马关县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "富宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "西畴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        },
+        {
+            "name": "丘北县",
+            "cityId": {
+                "$REF$": "(lct.city,name=文山州)"
+            }
+        }
+    ]
+}

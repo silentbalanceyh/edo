@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "外环内",
+            "cityId":{
+                "$REF$":"(lct.city,name=北辰区)"
+            }
+        },
+        {
+            "name": "外环外其它地区",
+            "cityId":{
+                "$REF$":"(lct.city,name=北辰区)"
+            }
+        },
+        {
+            "name": "外环外双街镇，河北工大新桥，屈店工业园",
+            "cityId":{
+                "$REF$":"(lct.city,name=北辰区)"
+            }
+        }
+    ]
+}

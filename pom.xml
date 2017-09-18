@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tsf</groupId>
+    <artifactId>edo</artifactId>
+    <version>0.0.1</version>
+    <modules>
+        <!-- Authorization Server -->
+        <module>edo-auth</module>
+        <module>edo-addr</module>
+        <module>edo-agent</module>
+        <module>edo-app</module>
+        <module>edo-hr</module>
+    </modules>
+    <packaging>pom</packaging>
+    <name>POM -- Edo Supplier Chain Finance</name>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- Vie Engine Version -->
+        <vie.version>0.9.1</vie.version>
+
+        <!-- JDK -->
+        <jdk.version>1.8</jdk.version>
+        <ajc.version>1.8</ajc.version>
+
+        <!-- JDBC -->
+        <jdbc.mysql.version>8.0.7-dmr</jdbc.mysql.version>
+
+        <!-- JUnit -->
+        <junit.version>4.12</junit.version>
+
+        <!-- AspectJ Tools -->
+        <!-- http://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
+        <aspectj.version>1.8.10</aspectj.version>
+
+        <!-- AOP Alliance -->
+        <!-- http://mvnrepository.com/artifact/aopalliance/aopalliance -->
+        <aopalliance.version>1.0</aopalliance.version>
+        <!-- ========== Object Validation ================== -->
+        <!-- Oval -->
+        <!-- http://mvnrepository.com/artifact/net.sf.oval/oval -->
+        <oval.version>1.87</oval.version>
+
+        <!-- Apache Groovy -->
+        <!-- http://mvnrepository.com/artifact/org.codehaus.groovy/groovy -->
+        <oval.groovy>2.4.7</oval.groovy>
+
+        <!-- =========================== Plugin =========================== -->
+        <!-- Os Maven Plugin -->
+        <!-- http://mvnrepository.com/artifact/kr.motd.maven/os-maven-plugin -->
+        <maven.os.plugin.version>1.5.0.Final</maven.os.plugin.version>
+        <!-- (Oct 19, 2015) Maven Clean Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-clean-plugin/ -->
+        <maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
+
+        <!-- (Feb 06, 2016) Apache Maven Compiler Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+        <maven.compiler.plugin.version>3.6.2</maven.compiler.plugin.version>
+
+        <!-- (Sep 29, 2014) Apache Maven Resources Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin -->
+        <maven.resources.plugin.version>3.0.2</maven.resources.plugin.version>
+
+        <!-- Apache Maven Dependency Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+        <maven.dependency.plugin.version>3.0.1</maven.dependency.plugin.version>
+
+        <!-- Maven Surefire Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin/ -->
+        <maven.surefire.plugin.version>2.20.1</maven.surefire.plugin.version>
+
+        <!-- Mojo's AspectJ Maven Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.codehaus.mojo/aspectj-maven-plugin -->
+        <maven.mojo.aspectj.version>1.10</maven.mojo.aspectj.version>
+
+        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/appassembler-maven-plugin -->
+        <maven.mojo.appassembler.version>2.0.0</maven.mojo.appassembler.version>
+        <!-- Apache Maven Shade Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-shade-plugin -->
+        <maven.shade.plugin.version>3.1.0</maven.shade.plugin.version>
+
+        <!-- OSGI Bundle Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.felix/maven-bundle-plugin -->
+        <maven.bundle.plugin.version>3.3.0</maven.bundle.plugin.version>
+
+        <!-- Protobuf Maven Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.xolstice.maven.plugins/protobuf-maven-plugin -->
+        <maven.protobuf.plugin.version>0.5.0</maven.protobuf.plugin.version>
+
+        <!-- Jar Plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
+        <maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
+
+        <!-- Maven fat jar plugin-->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
+        <maven.assembly.plugin.version>3.1.0</maven.assembly.plugin.version>
+
+        <!-- Maven deploy plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+        <maven.deploy.plugin.version>2.8.2</maven.deploy.plugin.version>
+
+        <!-- Maven site plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
+        <maven.site.plugin.version>3.6</maven.site.plugin.version>
+
+        <!-- Maven install plugin -->
+        <!-- http://mvnrepository.com/artifact/org.apache.maven.plugins/maven-install-plugin -->
+        <maven.install.plugin.version>2.5.2</maven.install.plugin.version>
+        <!-- Maven Updating -->
+        <maven.mojo.versions>2.3</maven.mojo.versions>
+
+        <!-- Execute to start application -->
+        <maven.exec.version>1.6.0</maven.exec.version>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <compilerArgs>
+                        <arg>-Xlint:all</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+            <!-- AJDT Compile -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>aspectj-maven-plugin</artifactId>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjrt</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjtools</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <complianceLevel>${ajc.version}</complianceLevel>
+                    <source>${ajc.version}</source>
+                    <target>${ajc.version}</target>
+                    <Xlint>ignore</Xlint>
+                    <weaveWithAspectsInMainSourceFolder>true</weaveWithAspectsInMainSourceFolder>
+                    <weaveMainSourceFolder>true</weaveMainSourceFolder>
+                    <showWeaveInfo>false</showWeaveInfo>
+                    <basedir>src/main/java</basedir>
+                    <includes>
+                        <include>**/*.java</include>
+                        <include>**/*.aj</include>
+                    </includes>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>compile_with_aspectj</id>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>${maven.install.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>${maven.site.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${maven.deploy.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>aspectj-maven-plugin</artifactId>
+                    <version>${maven.mojo.aspectj.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven.compiler.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>${maven.clean.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>${maven.dependency.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>${maven.resources.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven.surefire.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${maven.jar.plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>${maven.assembly.plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>com.vie</groupId>
+            <artifactId>vie-jct</artifactId>
+        </dependency>
+        <!-- AspectJ for global -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <!-- Vie Jct -->
+            <dependency>
+                <groupId>com.vie</groupId>
+                <artifactId>vie-jct</artifactId>
+                <version>${vie.version}</version>
+            </dependency>
+            <!-- Object Validation -->
+            <dependency>
+                <groupId>net.sf.oval</groupId>
+                <artifactId>oval</artifactId>
+                <version>${oval.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>${oval.groovy}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <!-- AspectJ Runtime -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjtools</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>aopalliance</groupId>
+                <artifactId>aopalliance</artifactId>
+                <version>${aopalliance.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

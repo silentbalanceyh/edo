@@ -1,0 +1,95 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "长沙市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "株洲市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "湘潭市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "韶山市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "衡阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "邵阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "岳阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "常德市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "张家界市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "郴州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "益阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "永州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "怀化市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "娄底市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        },
+        {
+            "name": "湘西州",
+            "stateId":{
+                "$REF$":"(lct.state,code=HUN)"
+            }
+        }
+    ]
+}

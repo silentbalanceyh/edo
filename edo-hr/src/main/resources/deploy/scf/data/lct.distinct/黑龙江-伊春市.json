@@ -1,0 +1,107 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "伊春区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "南岔区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "友好区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "西林区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "翠峦区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "新青区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "美溪区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "金山屯区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "五营区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "乌马河区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "汤旺河区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "带岭区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "乌伊岭区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "红星区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "上甘岭区",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "铁力市",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        },
+        {
+            "name": "嘉荫县",
+            "cityId":{
+                "$REF$":"(lct.city,name=伊春市)"
+            }
+        }
+    ]
+}

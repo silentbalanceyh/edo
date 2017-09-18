@@ -1,0 +1,125 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "广顺镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "安富镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "峰高镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "双河镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "直升镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "路孔镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "清江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "仁义镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "河包镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "古昌镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "吴家镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "观胜镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "铜鼓镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "清流镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "盘龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "远觉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "清升镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "荣隆镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        },
+        {
+            "name": "龙集镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=荣昌县)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "东坡区",
+            "cityId": {
+                "$REF$": "(lct.city,name=眉山市)"
+            }
+        },
+        {
+            "name": "仁寿县",
+            "cityId": {
+                "$REF$": "(lct.city,name=眉山市)"
+            }
+        },
+        {
+            "name": "彭山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=眉山市)"
+            }
+        },
+        {
+            "name": "洪雅县",
+            "cityId": {
+                "$REF$": "(lct.city,name=眉山市)"
+            }
+        },
+        {
+            "name": "丹棱县",
+            "cityId": {
+                "$REF$": "(lct.city,name=眉山市)"
+            }
+        },
+        {
+            "name": "青神县",
+            "cityId": {
+                "$REF$": "(lct.city,name=眉山市)"
+            }
+        }
+    ]
+}

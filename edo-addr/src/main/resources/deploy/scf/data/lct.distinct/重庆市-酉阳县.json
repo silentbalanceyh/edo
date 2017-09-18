@@ -1,0 +1,245 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "钟多镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "苍岭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "车田乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "大溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "丁市镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "泔溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "龚滩镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "黑水镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "后溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "李溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "龙潭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "麻旺镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "小河镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "兴隆镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "酉酬镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "南腰界乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "后坪坝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "板溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "官清乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "花田乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "江丰乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "可大乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "浪坪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "两罾乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "毛坝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "庙溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "木叶乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "楠木乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "偏柏乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "清泉乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "双泉乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "天馆乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "铜鼓乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "涂市乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "万木乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "五福乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "宜居乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "腴地乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        },
+        {
+            "name": "板桥乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=酉阳县)"
+            }
+        }
+    ]
+}

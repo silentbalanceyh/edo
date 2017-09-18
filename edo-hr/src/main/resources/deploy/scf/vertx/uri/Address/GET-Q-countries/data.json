@@ -1,0 +1,6 @@
+{
+    "uri": "/api/lct/countries",
+    "identifier":"lct.country",
+    "address":"MSG://MESSAGE/QUEUE/DATA",
+    "responder":"com.vie.un.flow.JArrayRepdor"
+}

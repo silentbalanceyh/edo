@@ -1,0 +1,23 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.oauth",
+        "name": "RefreshToken",
+        "identifier": "oth.refresh.token",
+        "policy": "GUID"
+    },
+    "__keys__": [],
+    "__fields__": [
+        {
+            "name": "token",
+            "columnName": "B_TOKEN",
+            "nullable": false,
+            "length": 512
+        },
+        {
+            "name": "authenticate",
+            "columnName": "B_AUTH",
+            "nullable": false,
+            "length": 512
+        }
+    ]
+}

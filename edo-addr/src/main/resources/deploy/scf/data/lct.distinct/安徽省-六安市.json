@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "霍山县",
+            "cityId":{
+                "$REF$":"(lct.city,name=六安市)"
+            }
+        },
+        {
+            "name": "金寨县",
+            "cityId":{
+                "$REF$":"(lct.city,name=六安市)"
+            }
+        },
+        {
+            "name": "霍邱县",
+            "cityId":{
+                "$REF$":"(lct.city,name=六安市)"
+            }
+        },
+        {
+            "name": "舒城县",
+            "cityId":{
+                "$REF$":"(lct.city,name=六安市)"
+            }
+        },
+        {
+            "name": "金安区",
+            "cityId":{
+                "$REF$":"(lct.city,name=六安市)"
+            }
+        },
+        {
+            "name": "裕安区",
+            "cityId":{
+                "$REF$":"(lct.city,name=六安市)"
+            }
+        }
+    ]
+}

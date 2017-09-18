@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "雨城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "名山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "荥经县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "汉源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "石棉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "天全县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "芦山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        },
+        {
+            "name": "宝兴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=雅安市)"
+            }
+        }
+    ]
+}

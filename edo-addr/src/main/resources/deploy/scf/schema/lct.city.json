@@ -1,0 +1,40 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.locate",
+        "name": "City",
+        "identifier": "lct.city",
+        "policy": "INCREMENT",
+        "comments": "OOB-Location-城市表"
+    },
+    "__keys__": [
+        {
+            "name": "FK_",
+            "columns": [
+                "R_STATE_ID"
+            ]
+        }
+    ],
+    "__fields__": [
+        {
+            "name": "name",
+            "columnName": "S_NAME",
+            "length": 32,
+            "nullable": false,
+            "comments": "城市名"
+        },
+        {
+            "name": "stateId",
+            "type": "LongType",
+            "columnName": "R_STATE_ID",
+            "columnType": "LONG",
+            "nullable": false,
+            "refTable": "LCT_STATE",
+            "comments": "REF: 所属省会/区域"
+        },
+        {
+            "name": "order",
+            "columnName": "I_ORDER",
+            "comments": "城市顺序"
+        }
+    ]
+}

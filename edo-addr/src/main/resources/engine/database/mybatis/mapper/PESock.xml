@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vie.les.mybatis.mapper.PESockMapper">
+    <resultMap type="Sock" id="scriptObject">
+        <id column="K_ID" property="uniqueId" />
+        <result column="S_NAME" property="name" />
+        <result column="S_ADDR_ROUTE" property="routeAddr" />
+        <result column="S_ADDR_EVENT" property="eventAddr" />
+        <result column="J_PERMITS" property="permits"
+            typeHandler="com.vie.les.mybatis.handler.JsonObjectHandler" />
+        <result column="J_CONFIG" property="config"
+            typeHandler="com.vie.les.mybatis.handler.JsonObjectHandler" />
+        <result column="S_WORKER" property="worker"
+            typeHandler="com.vie.les.mybatis.handler.ClassHandler" />
+        <result column="S_MODIFIER" property="modifier" />
+    </resultMap>
+    <insert id="insert" parameterType="Sock" keyColumn="K_ID"
+        keyProperty="uniqueId">
+        <![CDATA[
+            INSERT INTO EVX_SOCK (
+                K_ID,
+                S_NAME,
+                S_ADDR_ROUTE,
+                S_ADDR_EVENT,
+                J_PERMITS,
+                J_CONFIG,
+                S_WORKER,
+                S_MODIFIER
+            ) VALUES (
+                #{uniqueId},
+                #{name},
+                #{routeAddr},
+                #{eventAddr},
+                #{permits,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{config,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{worker,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{modifier}
+            )
+        ]]>
+    </insert>
+    <insert id="batchInsert" parameterType="java.util.List">
+        <![CDATA[
+            INSERT INTO EVX_SOCK (
+                K_ID,
+                S_NAME,
+                S_ADDR_ROUTE,
+                S_ADDR_EVENT,
+                J_PERMITS,
+                J_CONFIG,
+                S_WORKER,
+                S_MODIFIER
+            ) VALUES
+        ]]>
+        <foreach collection="list" item="item" index="index"
+            separator=",">
+            <![CDATA[(
+                #{item.uniqueId},
+                #{item.name},
+                #{item.routeAddr},
+                #{item.eventAddr},
+                #{item.permits,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{item.config,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{item.worker,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{item.modifier}
+            )]]>
+        </foreach>
+    </insert>
+    <update id="update" parameterType="Sock" keyColumn="K_ID"
+        keyProperty="uniqueId">
+        <![CDATA[
+            UPDATE EVX_SOCK SET
+                K_ID=#{uniqueId},
+                S_NAME=#{name},
+                S_ADDR_ROUTE=#{routeAddr},
+                S_ADDR_EVENT=#{eventAddr},
+                J_PERMITS=#{permits,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                J_CONFIG=#{config,typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                S_WORKER=#{worker,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                S_MODIFIER=#{modifier}
+            WHERE K_ID=#{uniqueId}
+        ]]>
+    </update>
+    <delete id="deleteById" parameterType="String">
+        <![CDATA[
+            DELETE FROM EVX_SOCK WHERE K_ID=#{uniqueId}
+        ]]>
+    </delete>
+    <delete id="batchDelete" parameterType="java.util.List">
+        <![CDATA[
+            DELETE FROM EVX_SOCK WHERE K_ID IN
+        ]]>
+        <foreach collection="list" item="item" open="(" separator=","
+            close=")">
+            <![CDATA[
+                #{item}
+            ]]>
+        </foreach>
+    </delete>
+    <delete id="purge">
+        <![CDATA[
+            DELETE FROM EVX_SOCK
+        ]]>
+    </delete>
+    <delete id="deleteList" parameterType="String">
+        <![CDATA[
+            DELETE FROM EVX_SOCK WHERE ${where}
+        ]]>
+    </delete>
+    <select id="count" resultType="java.lang.Long">
+        <![CDATA[
+            SELECT COUNT(K_ID) FROM EVX_SOCK
+        ]]>
+    </select>
+    <select id="selectAll" resultMap="scriptObject">
+        <![CDATA[
+            SELECT * FROM EVX_SOCK
+        ]]>
+    </select>
+    <select id="queryList" parameterType="String" resultMap="scriptObject">
+        <![CDATA[
+            SELECT * FROM EVX_SOCK WHERE ${where}
+        ]]>
+    </select>
+    <select id="selectById" parameterType="String" resultMap="scriptObject">
+        <![CDATA[
+            SELECT * FROM EVX_SOCK WHERE K_ID=#{uniqueId}
+        ]]>
+    </select>
+
+    <select id="selectByPage" resultMap="scriptObject">
+        <!-- 动态SQL语句 -->
+        <if test="category = 'H2'">
+            <![CDATA[
+                SELECT * FROM EVX_SOCK ORDER BY ${orderBy} LIMIT #{size} OFFSET #{start}
+            ]]>
+        </if>
+    </select>
+</mapper>

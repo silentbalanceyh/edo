@@ -1,0 +1,101 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "吊罗山乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "阳江农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "乌石农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "加钗农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "长征农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "营根镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "湾岭镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "黎母山镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "和平镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "长征镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "红毛镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "中平镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "上安乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "什运乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        },
+        {
+            "name": "黎母山林业公司",
+            "cityId": {
+                "$REF$": "(lct.city,name=琼中县)"
+            }
+        }
+    ]
+}

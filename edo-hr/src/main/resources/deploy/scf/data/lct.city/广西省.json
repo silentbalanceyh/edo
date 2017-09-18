@@ -1,0 +1,89 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "崇左市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "南宁市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "柳州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "桂林市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "梧州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "北海市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "防城港市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "钦州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "贵港市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "玉林市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "贺州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "百色市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "河池市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        },
+        {
+            "name": "来宾市",
+            "stateId":{
+                "$REF$":"(lct.state,code=GX)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "铁东区",
+            "cityId": {
+                "$REF$": "(lct.city,name=四平市)"
+            }
+        },
+        {
+            "name": "铁西区",
+            "cityId": {
+                "$REF$": "(lct.city,name=四平市)"
+            }
+        },
+        {
+            "name": "公主岭市",
+            "cityId": {
+                "$REF$": "(lct.city,name=四平市)"
+            }
+        },
+        {
+            "name": "双辽市",
+            "cityId": {
+                "$REF$": "(lct.city,name=四平市)"
+            }
+        },
+        {
+            "name": "梨树县",
+            "cityId": {
+                "$REF$": "(lct.city,name=四平市)"
+            }
+        },
+        {
+            "name": "伊通县",
+            "cityId": {
+                "$REF$": "(lct.city,name=四平市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "通川区",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        },
+        {
+            "name": "万源市",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        },
+        {
+            "name": "达县",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        },
+        {
+            "name": "宣汉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        },
+        {
+            "name": "开江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        },
+        {
+            "name": "大竹县",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        },
+        {
+            "name": "渠县",
+            "cityId": {
+                "$REF$": "(lct.city,name=达州市)"
+            }
+        }
+    ]
+}

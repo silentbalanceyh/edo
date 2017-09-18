@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "石家庄市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "邯郸市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "邢台市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "保定市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "张家口市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "承德市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "秦皇岛市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "唐山市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "沧州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "廊坊市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        },
+        {
+            "name": "衡水市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEB)"
+            }
+        }
+    ]
+}

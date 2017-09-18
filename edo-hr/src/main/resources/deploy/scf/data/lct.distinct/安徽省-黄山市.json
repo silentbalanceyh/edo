@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "徽州区",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        },
+        {
+            "name": "屯溪区",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        },
+        {
+            "name": "休宁县",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        },
+        {
+            "name": "歙县",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        },
+        {
+            "name": "黟县",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        },
+        {
+            "name": "祁门县",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        },
+        {
+            "name": "黄山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=黄山市)"
+            }
+        }
+    ]
+}

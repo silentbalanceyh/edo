@@ -1,0 +1,89 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "红花岗区",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "汇川区",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "赤水市",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "仁怀市",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "遵义县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "桐梓县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "绥阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "习水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "凤冈县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "正安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "湄潭县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "余庆县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "道真县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        },
+        {
+            "name": "务川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=遵义市)"
+            }
+        }
+    ]
+}

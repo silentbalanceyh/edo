@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "永安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "明溪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "将乐县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "大田县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "宁化县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "建宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "沙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "尤溪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "清流县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "泰宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "梅列区",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        },
+        {
+            "name": "三元区",
+            "cityId": {
+                "$REF$": "(lct.city,name=三明市)"
+            }
+        }
+    ]
+}

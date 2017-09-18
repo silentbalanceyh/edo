@@ -1,0 +1,95 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "南开乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "阜龙乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "青松乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "金波乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "荣邦乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "白沙农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "牙叉镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "龙江农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "七坊镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "邦溪农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "邦溪镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "打安镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "细水乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        },
+        {
+            "name": "元门乡",
+            "cityId": {
+                "$REF$": "(lct.city,name=白沙县)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "岑溪市",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        },
+        {
+            "name": "苍梧县",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        },
+        {
+            "name": "藤县",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        },
+        {
+            "name": "蒙山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        },
+        {
+            "name": "万秀区",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        },
+        {
+            "name": "蝶山区",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        },
+        {
+            "name": "长洲区",
+            "cityId": {
+                "$REF$": "(lct.city,name=梧州市)"
+            }
+        }
+    ]
+}

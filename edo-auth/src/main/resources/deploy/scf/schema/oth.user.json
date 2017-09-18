@@ -1,0 +1,53 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.oauth",
+        "name": "OAuthUser",
+        "identifier": "oth.user",
+        "policy": "GUID"
+    },
+    "__keys__": [
+        {
+            "name": "UK_",
+            "columns": [
+                "R_CLIENT_ID"
+            ]
+        },
+        {
+            "name": "FK_",
+            "columns": [
+                "R_CLIENT_ID"
+            ]
+        }
+    ],
+    "__fields__": [
+        {
+            "name": "clientId",
+            "type": "StringType",
+            "columnName": "R_CLIENT_ID",
+            "columnType": "STRING1",
+            "refTable": "SEC_USER",
+            "unique": true,
+            "nullable": false,
+            "length": 36
+        },
+        {
+            "name": "clientSecret",
+            "columnName": "S_CLIENT_SECRET",
+            "nullable": false
+        },
+        {
+            "name": "grantType",
+            "columnName": "S_GRANT_TYPE",
+            "nullable": false,
+            "length": 32
+        },
+        {
+            "name": "scope",
+            "columnName": "S_SCOPE"
+        },
+        {
+            "name": "redirectUri",
+            "columnName": "T_REDIRECT_URI"
+        }
+    ]
+}

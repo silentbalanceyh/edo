@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "岚山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=日照市)"
+            }
+        },
+        {
+            "name": "新市区",
+            "cityId":{
+                "$REF$":"(lct.city,name=日照市)"
+            }
+        },
+        {
+            "name": "五莲县",
+            "cityId":{
+                "$REF$":"(lct.city,name=日照市)"
+            }
+        },
+        {
+            "name": "东港区",
+            "cityId":{
+                "$REF$":"(lct.city,name=日照市)"
+            }
+        },
+        {
+            "name": "莒县",
+            "cityId":{
+                "$REF$":"(lct.city,name=日照市)"
+            }
+        }
+    ]
+}

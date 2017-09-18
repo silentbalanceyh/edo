@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "雁江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=资阳市)"
+            }
+        },
+        {
+            "name": "简阳市",
+            "cityId": {
+                "$REF$": "(lct.city,name=资阳市)"
+            }
+        },
+        {
+            "name": "安岳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=资阳市)"
+            }
+        },
+        {
+            "name": "乐至县",
+            "cityId": {
+                "$REF$": "(lct.city,name=资阳市)"
+            }
+        }
+    ]
+}

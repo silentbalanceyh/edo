@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "龙泉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "永定镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "大台镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "潭柘寺镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "王平镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "军庄镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "妙峰山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "雁翅镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "斋堂镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        },
+        {
+            "name": "清水镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=门头沟)"
+            }
+        }
+    ]
+}

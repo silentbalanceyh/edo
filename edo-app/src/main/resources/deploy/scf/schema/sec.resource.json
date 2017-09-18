@@ -1,0 +1,52 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.rbac",
+        "name": "Resource",
+        "identifier": "sec.resource",
+        "policy": "GUID"
+    },
+    "__keys__": [
+        {
+            "name": "UK_",
+            "columns":[
+                "S_IDENTIFIER"
+            ]
+        }
+    ],
+    "__fields__": [
+        {
+            "name": "urlId",
+            "type": "StringType",
+            "columnName": "V_URL_ID",
+            "columnType": "STRING1",
+            "nullable":false,
+            "length":64
+        },
+        {
+            "name": "identifier",
+            "columnName": "S_IDENTIFIER",
+            "unique": true,
+            "nullable":false
+        },
+        {
+            "name": "object",
+            "columnName": "S_OBJ_TABLE"
+        },
+        {
+            "name": "objectId",
+            "columnName": "S_OBJ_ID"
+        },
+        {
+            "name": "projection",
+            "columnName": "T_PROJECTION"
+        },
+        {
+            "name": "query",
+            "columnName": "T_QUERY"
+        },
+        {
+            "name": "params",
+            "columnName": "J_PARAMS"
+        }
+    ]
+}

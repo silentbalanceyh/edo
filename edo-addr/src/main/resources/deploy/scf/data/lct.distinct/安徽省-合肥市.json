@@ -1,0 +1,95 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "包河区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "蜀山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "瑶海区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "庐阳区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "滨湖新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "肥西县",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "巢湖市",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "长丰县",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "肥东县",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "庐江县",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "北城新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "经济技术开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "高新技术开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "新站综合开发试验区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        },
+        {
+            "name": "政务文化新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=合肥市)"
+            }
+        }
+    ]
+}

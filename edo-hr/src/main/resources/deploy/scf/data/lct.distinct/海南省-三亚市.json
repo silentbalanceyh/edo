@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "崖城镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "海棠湾镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "吉阳镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "凤凰镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "天涯镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "育才镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "河西区",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "河东区",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "南田农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "南新农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "南岛农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "立才农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        },
+        {
+            "name": "南滨农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=三亚市)"
+            }
+        }
+    ]
+}

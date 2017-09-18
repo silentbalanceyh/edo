@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "盐湖区",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "河津市",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "永济市",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "新绛县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "平陆县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "垣曲县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "绛县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "稷山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "芮城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "夏县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "临猗县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "万荣县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        },
+        {
+            "name": "闻喜县",
+            "cityId": {
+                "$REF$": "(lct.city,name=运城市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "园林",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "杨市",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "周矶",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "广华",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "泰丰",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "竹根滩镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "高石碑镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "积玉口镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "渔洋镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "王场镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "熊口镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "老新镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "浩口镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "张金镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "龙湾镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "周矶管理区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "后湖管理区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "熊口管理区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "总口管理区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "高场原种场",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "浩口原种场",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "江汉石油管理局",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "潜江经济开发区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "西大垸管理区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        },
+        {
+            "name": "运粮湖管理区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潜江市)"
+            }
+        }
+    ]
+}

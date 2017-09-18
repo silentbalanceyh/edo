@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "噶尔县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        },
+        {
+            "name": "普兰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        },
+        {
+            "name": "札达县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        },
+        {
+            "name": "日土县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        },
+        {
+            "name": "革吉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        },
+        {
+            "name": "改则县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        },
+        {
+            "name": "措勤县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿里地区)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "成华区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "新都区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "武侯区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "温江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "金牛区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "锦江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "青白江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "青羊区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "龙泉驿区",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "崇州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "彭州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "邛崃市",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "都江堰市",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "双流县",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        {
+            "name": "大邑县",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        
+        {
+            "name": "新津县",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        
+        {
+            "name": "浦江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        
+        
+        {
+            "name": "郫县",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        },
+        
+        {
+            "name": "金堂县",
+            "cityId": {
+                "$REF$": "(lct.city,name=成都市)"
+            }
+        }
+        
+    ]
+}

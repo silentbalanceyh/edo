@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "滕州市",
+            "cityId":{
+                "$REF$":"(lct.city,name=枣庄市)"
+            }
+        },
+        {
+            "name": "山亭区",
+            "cityId":{
+                "$REF$":"(lct.city,name=枣庄市)"
+            }
+        },
+        {
+            "name": "台儿庄区",
+            "cityId":{
+                "$REF$":"(lct.city,name=枣庄市)"
+            }
+        },
+        {
+            "name": "峄城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=枣庄市)"
+            }
+        },
+        {
+            "name": "薛城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=枣庄市)"
+            }
+        },
+        {
+            "name": "市中区",
+            "cityId":{
+                "$REF$":"(lct.city,name=枣庄市)"
+            }
+        }
+    ]
+}

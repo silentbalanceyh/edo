@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "海城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=北海市)"
+            }
+        },
+        {
+            "name": "银海区",
+            "cityId": {
+                "$REF$": "(lct.city,name=北海市)"
+            }
+        },
+        {
+            "name": "合浦县",
+            "cityId": {
+                "$REF$": "(lct.city,name=北海市)"
+            }
+        },
+        {
+            "name": "铁山港区",
+            "cityId": {
+                "$REF$": "(lct.city,name=北海市)"
+            }
+        }
+    ]
+}

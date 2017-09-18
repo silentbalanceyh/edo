@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "麦积区",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        },
+        {
+            "name": "秦州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        },
+        {
+            "name": "甘谷县",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        },
+        {
+            "name": "武山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        },
+        {
+            "name": "清水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        },
+        {
+            "name": "秦安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        },
+        {
+            "name": "张家川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=天水市)"
+            }
+        }
+    ]
+}

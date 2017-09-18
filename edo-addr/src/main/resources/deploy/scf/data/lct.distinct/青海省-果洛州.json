@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "玛沁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=果洛州)"
+            }
+        },
+        {
+            "name": "甘德县",
+            "cityId": {
+                "$REF$": "(lct.city,name=果洛州)"
+            }
+        },
+        {
+            "name": "达日县",
+            "cityId": {
+                "$REF$": "(lct.city,name=果洛州)"
+            }
+        },
+        {
+            "name": "班玛县",
+            "cityId": {
+                "$REF$": "(lct.city,name=果洛州)"
+            }
+        },
+        {
+            "name": "久治县",
+            "cityId": {
+                "$REF$": "(lct.city,name=果洛州)"
+            }
+        },
+        {
+            "name": "玛多县",
+            "cityId": {
+                "$REF$": "(lct.city,name=果洛州)"
+            }
+        }
+    ]
+}

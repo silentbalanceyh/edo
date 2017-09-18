@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "小店区",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "迎泽区",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "晋源区",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "万柏林区",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "尖草坪区",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "杏花岭区",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "古交市",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "阳曲县",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "娄烦县",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        },
+        {
+            "name": "清徐县",
+            "cityId": {
+                "$REF$": "(lct.city,name=太原市)"
+            }
+        }
+    ]
+}

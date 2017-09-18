@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "金山工业区",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "朱泾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "枫泾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "张堰镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "亭林镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "吕巷镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "廊下镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "金山卫镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "漕泾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        },
+        {
+            "name": "山阳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=金山区)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=静安区)"
+            }
+        }
+    ]
+}

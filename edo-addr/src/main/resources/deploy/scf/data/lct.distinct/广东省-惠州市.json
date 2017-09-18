@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "惠阳区",
+            "cityId": {
+                "$REF$": "(lct.city,name=惠州市)"
+            }
+        },
+        {
+            "name": "大亚湾区",
+            "cityId": {
+                "$REF$": "(lct.city,name=惠州市)"
+            }
+        },
+        {
+            "name": "惠城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=惠州市)"
+            }
+        },
+        {
+            "name": "惠东县",
+            "cityId": {
+                "$REF$": "(lct.city,name=惠州市)"
+            }
+        },
+        {
+            "name": "博罗县",
+            "cityId": {
+                "$REF$": "(lct.city,name=惠州市)"
+            }
+        },
+        {
+            "name": "龙门县",
+            "cityId": {
+                "$REF$": "(lct.city,name=惠州市)"
+            }
+        }
+    ]
+}

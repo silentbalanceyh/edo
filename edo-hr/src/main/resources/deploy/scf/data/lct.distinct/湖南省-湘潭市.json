@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "雨湖区",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘潭市)"
+            }
+        },
+        {
+            "name": "岳塘区",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘潭市)"
+            }
+        },
+        {
+            "name": "湘乡市",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘潭市)"
+            }
+        },
+        {
+            "name": "湘潭县",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘潭市)"
+            }
+        },
+        {
+            "name": "韶山市",
+            "cityId": {
+                "$REF$": "(lct.city,name=湘潭市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "湛河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "卫东区",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "新华区",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "汝州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "舞钢市",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "郏县",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "叶县",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "鲁山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "宝丰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        },
+        {
+            "name": "石龙区",
+            "cityId": {
+                "$REF$": "(lct.city,name=平顶山市)"
+            }
+        }
+    ]
+}

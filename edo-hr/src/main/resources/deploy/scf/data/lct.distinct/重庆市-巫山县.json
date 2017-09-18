@@ -1,0 +1,167 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "巫峡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "大昌镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "福田镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "官渡镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "官阳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "龙溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "骡坪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "庙堂乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "庙宇镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "双龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "铜鼓镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "抱龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "大溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "当阳乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "邓家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "笃坪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "红椿乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "建平乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "金坪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "两坪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "龙井乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "培石乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "平河乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "曲尺乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "三溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        },
+        {
+            "name": "竹贤乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=巫山县)"
+            }
+        }
+    ]
+}

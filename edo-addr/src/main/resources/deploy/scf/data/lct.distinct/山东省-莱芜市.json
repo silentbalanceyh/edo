@@ -1,0 +1,17 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "莱城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=莱芜市)"
+            }
+        },
+        {
+            "name": "钢城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=莱芜市)"
+            }
+        }
+    ]
+}

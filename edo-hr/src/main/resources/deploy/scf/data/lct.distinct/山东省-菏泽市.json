@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "牡丹区",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "单县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "曹县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "定陶县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "巨野县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "成武县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "东明县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "郓城县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        },
+        {
+            "name": "鄄城县",
+            "cityId":{
+                "$REF$":"(lct.city,name=菏泽市)"
+            }
+        }
+    ]
+}

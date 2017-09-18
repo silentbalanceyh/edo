@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "丰城市",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "樟树市",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "袁州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "高安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "铜鼓县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "靖安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "宜丰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "奉新县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "万载县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        },
+        {
+            "name": "上高县",
+            "cityId": {
+                "$REF$": "(lct.city,name=宜春市)"
+            }
+        }
+    ]
+}

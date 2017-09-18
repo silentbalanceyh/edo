@@ -1,0 +1,197 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "清溪场镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "中和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "隘口镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "峨溶镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "官庄镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "洪安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "兰桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "龙池镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "梅江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "平凯镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "溶溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "石堤镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "石耶镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "雅江镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "巴家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "保安乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "岑溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "大溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "干川乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "膏田乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "官舟乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "海洋乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "里仁乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "妙泉乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "平马乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "宋农乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "溪口乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "孝溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "涌洞乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "中平乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        },
+        {
+            "name": "钟灵乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=秀山县)"
+            }
+        }
+    ]
+}

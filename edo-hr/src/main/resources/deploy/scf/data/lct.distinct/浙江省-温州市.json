@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "龙湾区",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "瑞安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "乐清市",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "鹿城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "瓯海区",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "永嘉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "文成县",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "平阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "泰顺县",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "洞头区",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "苍南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        },
+        {
+            "name": "茶山高教园区",
+            "cityId": {
+                "$REF$": "(lct.city,name=温州市)"
+            }
+        }
+    ]
+}

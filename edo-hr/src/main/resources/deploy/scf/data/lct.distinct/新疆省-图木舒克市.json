@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "图木舒克市",
+            "cityId": {
+                "$REF$": "(lct.city,name=图木舒克市)"
+            }
+        }
+    ]
+}

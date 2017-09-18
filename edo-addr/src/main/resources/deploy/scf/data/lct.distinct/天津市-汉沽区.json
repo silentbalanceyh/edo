@@ -1,0 +1,17 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "汉沽区街里、汉沽开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=津南区)"
+            }
+        },
+        {
+            "name": "其它地区",
+            "cityId":{
+                "$REF$":"(lct.city,name=津南区)"
+            }
+        }
+    ]
+}

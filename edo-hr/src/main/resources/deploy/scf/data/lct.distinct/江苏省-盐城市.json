@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "射阳县",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "亭湖区",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "盐都区",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "东台市",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "大丰区",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "建湖县",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "响水县",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "阜宁县",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        },
+        {
+            "name": "滨海县",
+            "cityId":{
+                "$REF$":"(lct.city,name=盐城市)"
+            }
+        }
+    ]
+}

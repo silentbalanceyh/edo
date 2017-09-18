@@ -1,0 +1,12 @@
+[
+    {
+        "workClass": "com.vie.un.vtc.BasicWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/SEC/BASIC",
+        "consumerHandler": "com.vie.un.exchange.BasicReplier"
+    },
+    {
+        "workClass": "com.vie.un.vtc.OAuthWorker",
+        "consumerAddr": "MSG://MESSAGE/QUEUE/SEC/OAUTH",
+        "consumerHandler": "com.vie.un.exchange.OAuthReplier"
+    }
+]

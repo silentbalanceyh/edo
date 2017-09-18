@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "龙安区",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "殷都区",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "文峰区",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "开发区",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "北关区",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "林州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "安阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "滑县",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "汤阴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        },
+        {
+            "name": "内黄县",
+            "cityId": {
+                "$REF$": "(lct.city,name=安阳市)"
+            }
+        }
+    ]
+}

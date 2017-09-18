@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "芗城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "龙文区",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "龙海市",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "平和县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "南靖县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "诏安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "漳浦县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "华安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "云霄县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "东山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        },
+        {
+            "name": "长泰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=漳州市)"
+            }
+        }
+    ]
+}

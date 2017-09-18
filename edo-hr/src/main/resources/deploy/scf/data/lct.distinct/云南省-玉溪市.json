@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "红塔区",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "华宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "澄江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "易门县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "通海县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "江川县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "元江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "新平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        },
+        {
+            "name": "峨山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=玉溪市)"
+            }
+        }
+    ]
+}

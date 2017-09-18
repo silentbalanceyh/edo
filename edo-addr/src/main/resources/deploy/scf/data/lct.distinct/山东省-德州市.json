@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "德城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "临邑县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "齐河县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "乐陵市",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "禹城市",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "陵县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "宁津县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "武城县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "庆云县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "平原县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        },
+        {
+            "name": "夏津县",
+            "cityId":{
+                "$REF$":"(lct.city,name=德州市)"
+            }
+        }
+    ]
+}

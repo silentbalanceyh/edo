@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "赵巷镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "徐泾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "华新镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "重固镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "白鹤镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "练塘镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "金泽镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        },
+        {
+            "name": "朱家角镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=青浦区)"
+            }
+        }
+    ]
+}

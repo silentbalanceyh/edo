@@ -1,0 +1,53 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "北屯市",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "阿勒泰市",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "富蕴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "青河县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "吉木乃县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "布尔津县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "福海县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        },
+        {
+            "name": "哈巴河县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿勒泰地区)"
+            }
+        }
+    ]
+}

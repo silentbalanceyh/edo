@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "确山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "新蔡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "上蔡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "沁阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "西平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "遂平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "汝南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "平舆县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "正阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        },
+        {
+            "name": "驿城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=驻马店市)"
+            }
+        }
+    ]
+}

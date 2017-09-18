@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "梁子湖区",
+            "cityId": {
+                "$REF$": "(lct.city,name=鄂州市)"
+            }
+        },
+        {
+            "name": "华容区",
+            "cityId": {
+                "$REF$": "(lct.city,name=鄂州市)"
+            }
+        },
+        {
+            "name": "鄂城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=鄂州市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "大港油田",
+            "cityId":{
+                "$REF$":"(lct.city,name=大港区)"
+            }
+        },
+        {
+            "name": "主城区内",
+            "cityId":{
+                "$REF$":"(lct.city,name=大港区)"
+            }
+        },
+        {
+            "name": "主城区外",
+            "cityId":{
+                "$REF$":"(lct.city,name=大港区)"
+            }
+        }
+    ]
+}

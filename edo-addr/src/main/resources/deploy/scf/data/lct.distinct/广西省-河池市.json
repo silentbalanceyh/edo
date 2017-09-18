@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "宜州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "天峨县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "凤山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "南丹县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "东兰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "巴马县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "环江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "大化县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "都安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "金城江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        },
+        {
+            "name": "罗城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=河池市)"
+            }
+        }
+    ]
+}

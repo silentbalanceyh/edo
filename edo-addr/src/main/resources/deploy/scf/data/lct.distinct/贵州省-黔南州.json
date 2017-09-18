@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "都匀市",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "福泉市",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "贵定县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "惠水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "罗甸县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "瓮安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "荔波县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "龙里县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "平塘县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "长顺县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "独山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        },
+        {
+            "name": "三都县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黔南州)"
+            }
+        }
+    ]
+}

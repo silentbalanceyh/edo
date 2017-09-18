@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "东昌区",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        },
+        {
+            "name": "梅河口市",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        },
+        {
+            "name": "集安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        },
+        {
+            "name": "通化县",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        },
+        {
+            "name": "辉南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        },
+        {
+            "name": "柳河县",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        },
+        {
+            "name": "二道江区",
+            "cityId": {
+                "$REF$": "(lct.city,name=通化市)"
+            }
+        }
+    ]
+}

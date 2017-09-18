@@ -1,0 +1,23 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "长城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=嘉峪关市)"
+            }
+        },
+        {
+            "name": "镜铁区",
+            "cityId": {
+                "$REF$": "(lct.city,name=嘉峪关市)"
+            }
+        },
+        {
+            "name": "雄关区",
+            "cityId": {
+                "$REF$": "(lct.city,name=嘉峪关市)"
+            }
+        }
+    ]
+}

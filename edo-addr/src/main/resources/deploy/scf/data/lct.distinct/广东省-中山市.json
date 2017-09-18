@@ -1,0 +1,137 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "火炬开发区",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "小榄镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "古镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "三乡镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "民众镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "东凤镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "板芙镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "神湾镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "横栏镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "港口镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "三角镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "大涌镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "南头镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "沙溪镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "坦洲镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "黄圃镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "五桂山镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "南朗镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "沙朗镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "阜沙镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        },
+        {
+            "name": "东升镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=中山市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "泸水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怒江州)"
+            }
+        },
+        {
+            "name": "福贡县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怒江州)"
+            }
+        },
+        {
+            "name": "兰坪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怒江州)"
+            }
+        },
+        {
+            "name": "贡山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怒江州)"
+            }
+        }
+    ]
+}

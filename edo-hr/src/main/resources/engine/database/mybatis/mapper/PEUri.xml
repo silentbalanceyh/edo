@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vie.les.mybatis.mapper.PEUriMapper">
+    <resultMap type="Uri" id="uriObject">
+        <id column="K_ID" property="uniqueId" />
+        <result column="S_URI" property="uri" />
+        <result column="S_PARAM_TYPE" property="paramType" typeHandler="org.apache.ibatis.type.EnumTypeHandler" />
+        <result column="S_METHOD" property="method" typeHandler="org.apache.ibatis.type.EnumTypeHandler" />
+        <result column="S_GLOBAL_ID" property="globalId" />
+        <result column="L_REQUIRED_PARAM" property="requiredParam" typeHandler="com.vie.les.mybatis.handler.ArrayHandler" />
+        <result column="MSG_ADDRESS" property="address" />
+        <result column="J_IN" property="in" />
+        <result column="J_OUT" property="out" />
+        <result column="IS_SECURE" property="secure" />
+        <result column="S_SENDER" property="sender" typeHandler="com.vie.les.mybatis.handler.ClassHandler" />
+        <result column="S_RESPONDER" property="responder" typeHandler="com.vie.les.mybatis.handler.ClassHandler" />
+        <result column="S_MAPPING" property="mapping" typeHandler="com.vie.les.mybatis.handler.JsonObjectHandler" />
+        <result column="S_JOINED" property="joined" typeHandler="com.vie.les.mybatis.handler.JsonObjectHandler" />
+        <result column="L_RETURN_FILTERS" property="returnFilters" typeHandler="com.vie.les.mybatis.handler.ArrayHandler" />
+        <result column="L_CONTENT_MIMES" property="contentMimes" typeHandler="com.vie.les.mybatis.handler.ArrayHandler" />
+        <result column="L_ACCEPT_MIMES" property="acceptMimes" typeHandler="com.vie.les.mybatis.handler.ArrayHandler" />
+    </resultMap>
+    <insert id="insert" parameterType="Uri" keyColumn="K_ID" keyProperty="uniqueId">
+        <![CDATA[
+            INSERT INTO EVX_URI (
+                K_ID,
+                S_URI,
+                S_METHOD,
+                S_PARAM_TYPE,
+                MSG_ADDRESS,
+                S_GLOBAL_ID,
+                J_IN,
+                J_OUT,
+                IS_SECURE,
+                S_MAPPING,
+                S_JOINED,
+                S_SENDER,
+                S_RESPONDER,
+                L_REQUIRED_PARAM,
+                L_RETURN_FILTERS,
+                L_CONTENT_MIMES,
+                L_ACCEPT_MIMES
+            ) VALUES (
+                #{uniqueId},
+                #{uri},
+                #{method, typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                #{paramType, typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                #{address},
+                #{globalId},
+                #{in},
+                #{out},
+                #{secure},
+                #{mapping, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{joined, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{sender,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{responder,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{requiredParam, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                #{returnFilters, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                #{contentMimes, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                #{acceptMimes, typeHandler=com.vie.les.mybatis.handler.ArrayHandler}
+            )
+        ]]>
+    </insert>
+    <insert id="batchInsert" parameterType="java.util.List">
+        <![CDATA[
+            INSERT INTO EVX_URI (
+                K_ID,
+                S_URI,
+                S_METHOD,
+                S_PARAM_TYPE,
+                MSG_ADDRESS,
+                S_GLOBAL_ID,
+                J_IN,
+                J_OUT,
+                IS_SECURE,
+                S_MAPPING,
+                S_JOINED,
+                S_SENDER,
+                S_RESPONDER,
+                L_REQUIRED_PARAM,
+                L_RETURN_FILTERS,
+                L_CONTENT_MIMES,
+                L_ACCEPT_MIMES
+            ) VALUES
+        ]]>
+        <foreach collection="list" item="item" index="index" separator=",">
+            <![CDATA[(
+                #{item.uniqueId},
+                #{item.uri},
+                #{item.method, typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                #{item.paramType, typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                #{item.address},
+                #{item.globalId},
+                #{item.in},
+                #{item.out},
+                #{item.secure},
+                #{item.mapping, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{item.joined, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                #{item.sender,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{item.responder,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                #{item.requiredParam, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                #{item.returnFilters, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                #{item.contentMimes, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                #{item.acceptMimes, typeHandler=com.vie.les.mybatis.handler.ArrayHandler}
+            )]]>
+        </foreach>
+    </insert>
+    <update id="update" parameterType="Uri" keyColumn="K_ID" keyProperty="uniqueId">
+        <![CDATA[
+            UPDATE EVX_URI SET
+                S_URI=#{uri},
+                S_METHOD=#{method,typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                S_PARAM_TYPE=#{paramType,typeHandler=org.apache.ibatis.type.EnumTypeHandler},
+                MSG_ADDRESS=#{address},
+                S_GLOBAL_ID=#{globalId},
+                J_IN=#{in},
+                J_OUT=#{out},
+                IS_SECURE=#{secure},
+                S_MAPPING=#{mapping, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                S_JOINED=#{joined, typeHandler=com.vie.les.mybatis.handler.JsonObjectHandler},
+                S_SENDER=#{sender,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                S_RESPONDER=#{responder,typeHandler=com.vie.les.mybatis.handler.ClassHandler},
+                L_REQUIRED_PARAM=#{requiredParam, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                L_RETURN_FILTERS=#{returnFilters, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                L_CONTENT_MIMES=#{contentMimes, typeHandler=com.vie.les.mybatis.handler.ArrayHandler},
+                L_ACCEPT_MIMES=#{acceptMimes, typeHandler=com.vie.les.mybatis.handler.ArrayHandler}
+            WHERE K_ID=#{uniqueId}
+        ]]>
+    </update>
+    <delete id="deleteById" parameterType="String">
+        <![CDATA[
+            DELETE FROM EVX_URI WHERE K_ID=#{uniqueId}
+        ]]>
+    </delete>
+    <delete id="batchDelete" parameterType="java.util.List">
+        <![CDATA[
+            DELETE FROM EVX_URI WHERE K_ID IN
+        ]]>
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            <![CDATA[
+                #{item}
+            ]]>
+        </foreach>
+    </delete>
+    <delete id="purge">
+        <![CDATA[
+            DELETE FROM EVX_URI
+        ]]>
+    </delete>
+    <delete id="deleteList" parameterType="String">
+        <![CDATA[
+            DELETE FROM EVX_URI WHERE ${where}
+        ]]>
+    </delete>
+    <select id="count" resultType="java.lang.Long">
+        <![CDATA[
+            SELECT COUNT(K_ID) FROM EVX_URI
+        ]]>
+    </select>
+    <select id="selectAll" resultMap="uriObject">
+        <![CDATA[
+            SELECT * FROM EVX_URI
+        ]]>
+    </select>
+    <select id="queryList" parameterType="String" resultMap="uriObject">
+        <![CDATA[
+            SELECT * FROM EVX_URI WHERE ${where}
+        ]]>
+    </select>
+    <select id="selectById" parameterType="String" resultMap="uriObject">
+        <![CDATA[
+            SELECT * FROM EVX_URI WHERE K_ID=#{uniqueId}
+        ]]>
+    </select>
+    <select id="selectByPage" resultMap="uriObject">
+        <!-- 动态SQL语句 -->
+        <if test="category = 'H2'">
+            <![CDATA[
+                SELECT * FROM EVX_URI ORDER BY ${orderBy} LIMIT #{size} OFFSET #{start}
+            ]]>
+        </if>
+    </select>
+    <!-- <select id="selectByUri" resultMap="uriObject"> -->
+    <!-- <![CDATA[ -->
+    <!-- SELECT * FROM EVX_URI WHERE S_URI=#{uri} -->
+    <!-- ]]> -->
+    <!-- </select> -->
+    <!-- <select id="selectByUriAndMethod" resultMap="uriObject"> -->
+    <!-- <![CDATA[ -->
+    <!-- SELECT * FROM EVX_URI WHERE S_URI=#{uri} AND S_METHOD=#{method,jdbcType=VARCHAR} -->
+    <!-- ]]> -->
+    <!-- </select> -->
+</mapper>

@@ -1,0 +1,107 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "莺歌海盐场",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "山荣农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "乐光农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "抱由镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "保国农场",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "万冲镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "大安镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "志仲镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "千家镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "九所镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "利国镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "黄流镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "佛罗镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "尖峰镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "莺歌海镇",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        },
+        {
+            "name": "尖峰岭林业公司",
+            "cityId": {
+                "$REF$": "(lct.city,name=乐东县)"
+            }
+        }
+    ]
+}

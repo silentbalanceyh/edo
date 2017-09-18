@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "黄州区",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "蕲春县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "麻城市",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "武穴市",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "浠水县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "红安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "罗田县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "黄梅县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "英山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        },
+        {
+            "name": "团风县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄冈市)"
+            }
+        }
+    ]
+}

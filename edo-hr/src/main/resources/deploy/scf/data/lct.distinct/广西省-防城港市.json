@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "防城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=防城港市)"
+            }
+        },
+        {
+            "name": "港口区",
+            "cityId": {
+                "$REF$": "(lct.city,name=防城港市)"
+            }
+        },
+        {
+            "name": "东兴市",
+            "cityId": {
+                "$REF$": "(lct.city,name=防城港市)"
+            }
+        },
+        {
+            "name": "上思县",
+            "cityId": {
+                "$REF$": "(lct.city,name=防城港市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "钓鱼岛",
+            "stateId":{
+                "$REF$":"(lct.state,code=DYD)"
+            }
+        }
+    ]
+}

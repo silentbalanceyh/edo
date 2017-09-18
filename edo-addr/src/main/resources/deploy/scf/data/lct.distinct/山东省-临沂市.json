@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "兰陵县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "兰山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "河东区",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "沂南县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "沂水县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "费县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "平邑县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "蒙阴县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "临沭县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "莒南县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "郯城县",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        },
+        {
+            "name": "罗庄区",
+            "cityId":{
+                "$REF$":"(lct.city,name=临沂市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "台湾市",
+            "stateId":{
+                "$REF$":"(lct.state,code=TW)"
+            }
+        }
+    ]
+}

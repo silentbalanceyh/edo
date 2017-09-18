@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "西市区",
+            "cityId": {
+                "$REF$": "(lct.city,name=营口市)"
+            }
+        },
+        {
+            "name": "站前区",
+            "cityId": {
+                "$REF$": "(lct.city,name=营口市)"
+            }
+        },
+        {
+            "name": "大石桥市",
+            "cityId": {
+                "$REF$": "(lct.city,name=营口市)"
+            }
+        },
+        {
+            "name": "盖州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=营口市)"
+            }
+        },
+        {
+            "name": "老边区",
+            "cityId": {
+                "$REF$": "(lct.city,name=营口市)"
+            }
+        },
+        {
+            "name": "鲅鱼圈区",
+            "cityId": {
+                "$REF$": "(lct.city,name=营口市)"
+            }
+        }
+    ]
+}

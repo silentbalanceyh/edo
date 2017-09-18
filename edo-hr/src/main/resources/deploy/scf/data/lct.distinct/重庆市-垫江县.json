@@ -1,0 +1,161 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "桂溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "澄溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "高安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "高峰镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "鹤游镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "普顺镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "沙坪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "太平镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "五洞镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "新民镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "砚台镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "永安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "周嘉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "白家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "包家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "曹回乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "大石乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "杠家乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "坪山镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "黄沙乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "裴兴乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "三溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "沙河乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "永平乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        },
+        {
+            "name": "长龙乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=垫江县)"
+            }
+        }
+    ]
+}

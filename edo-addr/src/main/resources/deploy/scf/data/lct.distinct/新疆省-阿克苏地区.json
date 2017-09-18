@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "阿克苏市",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "温宿县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "沙雅县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "拜城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "阿瓦提县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "库车县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "柯坪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "新和县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        },
+        {
+            "name": "乌什县",
+            "cityId": {
+                "$REF$": "(lct.city,name=阿克苏地区)"
+            }
+        }
+    ]
+}

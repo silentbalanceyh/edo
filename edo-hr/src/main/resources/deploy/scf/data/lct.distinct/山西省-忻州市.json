@@ -1,0 +1,89 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "原平市",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "代县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "神池县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "五寨县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "五台县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "偏关县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "宁武县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "静乐县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "繁峙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "河曲县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "保德县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "定襄县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "忻府区",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        },
+        {
+            "name": "岢岚县",
+            "cityId": {
+                "$REF$": "(lct.city,name=忻州市)"
+            }
+        }
+    ]
+}

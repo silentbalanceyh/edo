@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "罗店镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "大场镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "杨行镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "月浦镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "罗泾镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "顾村镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "高境镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "庙行镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "淞南镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        },
+        {
+            "name": "宝山城市工业园区",
+            "cityId":{
+                "$REF$":"(lct.city,name=宝山区)"
+            }
+        }
+    ]
+}

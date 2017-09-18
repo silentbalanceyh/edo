@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "岱山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=舟山市)"
+            }
+        },
+        {
+            "name": "嵊泗县",
+            "cityId": {
+                "$REF$": "(lct.city,name=舟山市)"
+            }
+        },
+        {
+            "name": "普陀区",
+            "cityId": {
+                "$REF$": "(lct.city,name=舟山市)"
+            }
+        },
+        {
+            "name": "定海区",
+            "cityId": {
+                "$REF$": "(lct.city,name=舟山市)"
+            }
+        }
+    ]
+}

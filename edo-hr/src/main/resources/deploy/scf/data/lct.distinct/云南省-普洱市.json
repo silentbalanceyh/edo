@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "孟连县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "思茅区",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "宁洱县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "景东县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "镇沅县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "景谷县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "墨江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "澜沧县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "西盟县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        },
+        {
+            "name": "江城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=普洱市)"
+            }
+        }
+    ]
+}

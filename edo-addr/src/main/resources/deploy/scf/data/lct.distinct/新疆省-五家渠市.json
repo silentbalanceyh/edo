@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "五家渠市",
+            "cityId": {
+                "$REF$": "(lct.city,name=五家渠市)"
+            }
+        }
+    ]
+}

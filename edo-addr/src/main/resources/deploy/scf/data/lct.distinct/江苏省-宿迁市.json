@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "宿城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=宿迁市)"
+            }
+        },
+        {
+            "name": "沐阳县",
+            "cityId":{
+                "$REF$":"(lct.city,name=宿迁市)"
+            }
+        },
+        {
+            "name": "泗阳县",
+            "cityId":{
+                "$REF$":"(lct.city,name=宿迁市)"
+            }
+        },
+        {
+            "name": "宿豫区",
+            "cityId":{
+                "$REF$":"(lct.city,name=宿迁市)"
+            }
+        },
+        {
+            "name": "泗洪县",
+            "cityId":{
+                "$REF$":"(lct.city,name=宿迁市)"
+            }
+        },
+        {
+            "name": "宿迁经济开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=宿迁市)"
+            }
+        }
+    ]
+}

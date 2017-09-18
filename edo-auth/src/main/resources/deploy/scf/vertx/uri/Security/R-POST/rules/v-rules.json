@@ -1,0 +1,54 @@
+[
+    {
+        "name": "username",
+        "type": "StringType",
+        "order": 1,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.LengthValidator",
+        "config": {
+            "minLength": 6,
+            "maxLength": -1
+        },
+        "errorMessage": "用户账号的长度必须超过6，请输入合法用户名。"
+    },
+    {
+        "name": "password",
+        "type": "StringType",
+        "order": 2,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.LengthValidator",
+        "config": {
+            "minLength": 32,
+            "maxLength": 32
+        },
+        "errorMessage": "密码长度不合法，必须在客户端加密，请联系管理员。"
+    },
+    {
+        "name": "username",
+        "type": "StringType",
+        "order": 3,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.MissingValidator",
+        "config": {
+            "identifier": "sec.user",
+            "field": "username"
+        },
+        "errorMessage": "当前用户名不存在，请输入合法用户名。"
+    },
+    {
+        "name": "password",
+        "type": "StringType",
+        "order": 4,
+        "componentType": "VALIDATOR",
+        "componentClass": "com.vie.un.uca.CrossMissingValidator",
+        "config": {
+            "$$PARAMS$$":null,
+            "identifier": "sec.user",
+            "filter":{
+                "username":"username",
+                "password":"password"
+            }
+        },
+        "errorMessage": "验证失败，请提供正确的用户名和密码！"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "市中区",
+            "cityId": {
+                "$REF$": "(lct.city,name=内江市)"
+            }
+        },
+        {
+            "name": "东兴区",
+            "cityId": {
+                "$REF$": "(lct.city,name=内江市)"
+            }
+        },
+        {
+            "name": "资中县",
+            "cityId": {
+                "$REF$": "(lct.city,name=内江市)"
+            }
+        },
+        {
+            "name": "威远县",
+            "cityId": {
+                "$REF$": "(lct.city,name=内江市)"
+            }
+        },
+        {
+            "name": "隆昌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=内江市)"
+            }
+        }
+    ]
+    
+}

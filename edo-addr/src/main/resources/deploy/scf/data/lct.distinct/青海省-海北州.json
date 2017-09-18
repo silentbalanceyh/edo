@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "海晏县",
+            "cityId": {
+                "$REF$": "(lct.city,name=海北州)"
+            }
+        },
+        {
+            "name": "祁连县",
+            "cityId": {
+                "$REF$": "(lct.city,name=海北州)"
+            }
+        },
+        {
+            "name": "刚察县",
+            "cityId": {
+                "$REF$": "(lct.city,name=海北州)"
+            }
+        },
+        {
+            "name": "门源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=海北州)"
+            }
+        }
+    ]
+}

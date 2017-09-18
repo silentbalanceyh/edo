@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "平鲁区",
+            "cityId": {
+                "$REF$": "(lct.city,name=朔州市)"
+            }
+        },
+        {
+            "name": "山阴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朔州市)"
+            }
+        },
+        {
+            "name": "右玉县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朔州市)"
+            }
+        },
+        {
+            "name": "应县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朔州市)"
+            }
+        },
+        {
+            "name": "怀仁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=朔州市)"
+            }
+        },
+        {
+            "name": "朔城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=朔州市)"
+            }
+        }
+    ]
+}

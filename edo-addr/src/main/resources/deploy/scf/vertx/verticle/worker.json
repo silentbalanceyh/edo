@@ -1,0 +1,44 @@
+[
+    {
+        "name": "com.vie.un.vtc.DataWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.PagerWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.ViewWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.PostGetWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.CrossWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.ScriptWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    },
+    {
+        "name": "com.vie.un.vtc.InquiryWorker",
+        "instances": 128,
+        "ha": true,
+        "worker": true
+    }
+]

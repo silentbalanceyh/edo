@@ -1,0 +1,40 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.locate",
+        "name": "Distinct",
+        "identifier": "lct.distinct",
+        "policy": "INCREMENT",
+        "comments": "OOB-Location-二级市/主城中的区"
+    },
+    "__keys__": [
+        {
+            "name": "FK_",
+            "columns": [
+                "R_CITY_ID"
+            ]
+        }
+    ],
+    "__fields__": [
+        {
+            "name": "name",
+            "columnName": "S_NAME",
+            "length": 32,
+            "nullable": false,
+            "comments": "名称"
+        },
+        {
+            "name": "cityId",
+            "type": "LongType",
+            "columnName": "R_CITY_ID",
+            "columnType": "LONG",
+            "nullable": false,
+            "refTable": "LCT_CITY",
+            "comments": "REF:关联城市"
+        },
+        {
+            "name": "order",
+            "columnName": "I_ORDER",
+            "comments": "区域排序"
+        }
+    ]
+}

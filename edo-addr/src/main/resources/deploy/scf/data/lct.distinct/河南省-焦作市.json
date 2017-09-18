@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "沁阳市",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "孟州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "修武县",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "温县",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "武陟县",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "博爱县",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "山阳区",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "解放区",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "马村区",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        },
+        {
+            "name": "中站区",
+            "cityId": {
+                "$REF$": "(lct.city,name=焦作市)"
+            }
+        }
+    ]
+}

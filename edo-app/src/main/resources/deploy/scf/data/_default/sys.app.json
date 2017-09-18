@@ -1,0 +1,9 @@
+{
+    "dateFormat": "yyyy-MM-dd HH:mm",
+    "currency": "CNY",
+    "auth": "OAuth",
+    "encoding": "UTF-8",
+    "attachSize": 4096,
+    "email": false,
+    "renewal": "$RANDOM$:8"
+}

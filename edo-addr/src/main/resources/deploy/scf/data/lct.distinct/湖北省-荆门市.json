@@ -1,0 +1,35 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "东宝区",
+            "cityId": {
+                "$REF$": "(lct.city,name=荆门市)"
+            }
+        },
+        {
+            "name": "掇刀区",
+            "cityId": {
+                "$REF$": "(lct.city,name=荆门市)"
+            }
+        },
+        {
+            "name": "钟祥市",
+            "cityId": {
+                "$REF$": "(lct.city,name=荆门市)"
+            }
+        },
+        {
+            "name": "京山县",
+            "cityId": {
+                "$REF$": "(lct.city,name=荆门市)"
+            }
+        },
+        {
+            "name": "沙洋县",
+            "cityId": {
+                "$REF$": "(lct.city,name=荆门市)"
+            }
+        }
+    ]
+}

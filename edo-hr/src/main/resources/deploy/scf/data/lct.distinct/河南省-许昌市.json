@@ -1,0 +1,41 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "魏都区",
+            "cityId": {
+                "$REF$": "(lct.city,name=许昌市)"
+            }
+        },
+        {
+            "name": "禹州市",
+            "cityId": {
+                "$REF$": "(lct.city,name=许昌市)"
+            }
+        },
+        {
+            "name": "长葛市",
+            "cityId": {
+                "$REF$": "(lct.city,name=许昌市)"
+            }
+        },
+        {
+            "name": "许昌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=许昌市)"
+            }
+        },
+        {
+            "name": "鄢陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=许昌市)"
+            }
+        },
+        {
+            "name": "襄城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=许昌市)"
+            }
+        }
+    ]
+}

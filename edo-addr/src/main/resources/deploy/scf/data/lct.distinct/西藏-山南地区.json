@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "贡嘎县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "扎囊县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "乃东县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "桑日县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "琼结县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "曲松县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "措美县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "洛扎县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "加查县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "隆子县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "错那县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        },
+        {
+            "name": "浪卡子县",
+            "cityId": {
+                "$REF$": "(lct.city,name=山南地区)"
+            }
+        }
+    ]
+}

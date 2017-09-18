@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "尖扎县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄南州)"
+            }
+        },
+        {
+            "name": "同仁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄南州)"
+            }
+        },
+        {
+            "name": "泽库县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄南州)"
+            }
+        },
+        {
+            "name": "河南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=黄南州)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "湘桥区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潮州市)"
+            }
+        },
+        {
+            "name": "枫溪区",
+            "cityId": {
+                "$REF$": "(lct.city,name=潮州市)"
+            }
+        },
+        {
+            "name": "潮安县",
+            "cityId": {
+                "$REF$": "(lct.city,name=潮州市)"
+            }
+        },
+        {
+            "name": "饶平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=潮州市)"
+            }
+        }
+    ]
+}

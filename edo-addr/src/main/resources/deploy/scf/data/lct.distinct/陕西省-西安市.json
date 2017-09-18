@@ -1,0 +1,89 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "新城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "雁塔区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "未央区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "长安区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "灞桥区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "碑林区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "莲湖区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "临潼区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "阎良区",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "高陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "蓝田县",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "户县",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "周至县",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        },
+        {
+            "name": "西安武警工程学院",
+            "cityId": {
+                "$REF$": "(lct.city,name=西安市)"
+            }
+        }
+    ]
+}

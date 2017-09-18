@@ -1,0 +1,61 @@
+{
+    "__meta__": {
+        "namespace": "com.vie.locate",
+        "name": "Tent",
+        "identifier": "lct.tent",
+        "policy": "INCREMENT",
+        "comments": "OOB-Location-楼房栋信息"
+    },
+    "__keys__": [
+        {
+            "name": "FK_",
+            "columns": [
+                "R_LOCATION_ID"
+            ]
+        },
+        {
+            "name": "FK_",
+            "columns": [
+                "R_YARD_ID"
+            ]
+        }
+    ],
+    "__fields__": [
+        {
+            "name": "name",
+            "columnName": "S_NAME",
+            "length": 32,
+            "nullable": false
+        },
+        {
+            "name": "manager",
+            "columnName": "S_MANAGER",
+            "comments": "管理员"
+        },
+        {
+            "name": "contact",
+            "columnName": "S_CONTACT",
+            "length": 20,
+            "comments": "联系电话"
+        },
+        {
+            "name": "yardId",
+            "type": "LongType",
+            "columnName": "R_YARD_ID",
+            "columnType": "LONG",
+            "refTable": "LCT_YARD"
+        },
+        {
+            "name": "locationId",
+            "type": "LongType",
+            "columnName": "R_LOCATION_ID",
+            "columnType": "LONG",
+            "refTable": "LCT_LOCATION"
+        },
+        {
+            "name": "order",
+            "columnName": "I_ORDER",
+            "comments": "栋顺序"
+        }
+    ]
+}

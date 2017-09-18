@@ -1,0 +1,21 @@
+[
+    {
+        "path":"/oth/login",
+        "method":"POST"
+    },
+    {
+        "path": "/oth/authorize",
+        "method": "POST"
+    },
+    {
+        "path": "/oth/token",
+        "method": "POST"
+    },
+    {
+        "path": "/user/cipher",
+        "method": "PUT"
+    },
+    {
+        "path": "/users"
+    }
+]

@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "经济开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "楚州区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "洪泽县",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "金湖县",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "盱眙县",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "清河区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "淮阴区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "清浦区",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        },
+        {
+            "name": "涟水县",
+            "cityId":{
+                "$REF$":"(lct.city,name=淮安市)"
+            }
+        }
+    ]
+}

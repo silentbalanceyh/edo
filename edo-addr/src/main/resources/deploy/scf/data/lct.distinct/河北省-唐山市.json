@@ -1,0 +1,89 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "路北区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "路南区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "迁安市",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "丰润区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "古冶区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "开平区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "遵化市",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "丰南区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "迁西区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "滦南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "玉田县",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "曹妃甸区",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "乐亭县",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        },
+        {
+            "name": "滦县",
+            "cityId": {
+                "$REF$": "(lct.city,name=唐山市)"
+            }
+        }
+    ]
+}

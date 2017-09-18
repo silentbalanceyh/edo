@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "管庄",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        },
+        {
+            "name": "北苑",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        },
+        {
+            "name": "定福庄",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        },
+        {
+            "name": "三环以内",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        },
+        {
+            "name": "三环到四环之间",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        },
+        {
+            "name": "四环到五环之间",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        },
+        {
+            "name": "五环到六环之间",
+            "cityId":{
+                "$REF$":"(lct.city,name=朝阳区)"
+            }
+        }
+    ]
+}

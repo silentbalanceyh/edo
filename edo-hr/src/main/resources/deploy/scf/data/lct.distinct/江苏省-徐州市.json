@@ -1,0 +1,83 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "贾汪区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "鼓楼区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "邳州市",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "泉山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "新沂市",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "云龙区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "铜山区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "睢宁县",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "沛县",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "丰县",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "金山桥开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "铜山经济技术开发区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        },
+        {
+            "name": "八段工业园区",
+            "cityId":{
+                "$REF$":"(lct.city,name=徐州市)"
+            }
+        }
+    ]
+}

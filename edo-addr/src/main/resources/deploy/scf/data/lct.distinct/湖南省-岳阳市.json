@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "岳阳楼区",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "君山区",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "云溪区",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "临湘市",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "汨罗市",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "岳阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "湘阴县",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "华容县",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        },
+        {
+            "name": "平江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=岳阳市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,251 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "云阳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "县城内",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "巴阳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "凤鸣镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "高阳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "故陵镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "红狮镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "黄石镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "江口镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "龙角镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "路阳镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "南溪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "农坝镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "盘龙镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "平安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "渠马镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "人和镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "桑坪镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "沙市镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "双土镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "鱼泉镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "云安镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "洞鹿乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "后叶乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "龙洞乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "毛坝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "泥溪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "票草乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "普安乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "栖霞乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "清水乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "上坝乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "石门乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "双龙乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "水口乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "外郎乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "新津乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "堰坪乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "养鹿乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "耀灵乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        },
+        {
+            "name": "云硐乡",
+            "cityId":{
+                "$REF$":"(lct.city,name=云阳县)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "章贡区",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "南康市",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "瑞金市",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "石城县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "安远县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "赣县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "宁都县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "寻乌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "兴国县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "定南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "上犹县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "于都县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "龙南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "崇义县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "大余县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "信丰县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "全南县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        },
+        {
+            "name": "会昌县",
+            "cityId": {
+                "$REF$": "(lct.city,name=赣州市)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "data": {
+        "ui.page": "v.ui.layout",
+        "ui.layout": "v.ui.layout",
+        "ui.slice": "ui.slice",
+        "ui.control": "ui.control",
+        "ui.field": "ui.field",
+        "ui.item": "ui.item",
+        "ui.column": "ui.column",
+        "ui.op": "v.ui.form.op",
+        "sec.action": "v.ui.form.op",
+        "ui.validate.rule": "ui.validate.rule",
+        "sys.tabular": "sys.tabular"
+    },
+    "uri":[
+        "/api/lst/tabular",
+        "/api/lst/tabular/:uniqueId"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "麒麟区",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "马龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "宣威市",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "富源县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "会泽县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "陆良县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "师宗县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "罗平县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        },
+        {
+            "name": "沾益县",
+            "cityId": {
+                "$REF$": "(lct.city,name=曲靖市)"
+            }
+        }
+    ]
+}

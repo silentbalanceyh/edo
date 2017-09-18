@@ -1,0 +1,59 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "东胜区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "准格尔旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "伊金霍洛旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "乌审旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "杭锦旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "鄂托克旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "鄂托克前旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "达拉特旗",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        },
+        {
+            "name": "康巴什新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=鄂尔多斯市)"
+            }
+        }
+    ]
+}

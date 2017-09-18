@@ -1,0 +1,77 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "鹤城区",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "洪江市",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "会同县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "溆浦县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "中方县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "辰溪县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "靖州县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "通道县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "芷江县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "新晃县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "麻阳县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        },
+        {
+            "name": "沅陵县",
+            "cityId": {
+                "$REF$": "(lct.city,name=怀化市)"
+            }
+        }
+    ]
+}

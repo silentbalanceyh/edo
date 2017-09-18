@@ -1,0 +1,71 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "太原市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "大同市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "阳泉市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "晋城市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "朔州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "晋中市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "忻州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "吕梁市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "临汾市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "运城市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        },
+        {
+            "name": "长治市",
+            "stateId":{
+                "$REF$":"(lct.state,code=SX)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "全境",
+            "cityId":{
+                "$REF$":"(lct.city,name=北部新区)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "郑州市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "开封市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "洛阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "平顶山市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "焦作市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "鹤壁市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "新乡市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "安阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "濮阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "许昌市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "漯河市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "三门峡市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "南阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "商丘市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "周口市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "驻马店市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "信阳市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        },
+        {
+            "name": "济源市",
+            "stateId":{
+                "$REF$":"(lct.state,code=HEN)"
+            }
+        }
+    ]
+}

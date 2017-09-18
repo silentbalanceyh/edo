@@ -1,0 +1,65 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "城区",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "南翔镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "马陆镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "华亭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "江桥镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "菊园新区",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "安亭镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "徐行镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "外冈镇",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        },
+        {
+            "name": "嘉定工业区",
+            "cityId":{
+                "$REF$":"(lct.city,name=嘉定区)"
+            }
+        }
+    ]
+}

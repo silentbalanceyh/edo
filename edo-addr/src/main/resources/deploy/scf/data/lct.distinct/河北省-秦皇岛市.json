@@ -1,0 +1,47 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "卢龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        },
+        {
+            "name": "青龙县",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        },
+        {
+            "name": "昌黎县",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        },
+        {
+            "name": "北戴河区",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        },
+        {
+            "name": "海港区",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        },
+        {
+            "name": "山海关区",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        },
+        {
+            "name": "抚宁县",
+            "cityId": {
+                "$REF$": "(lct.city,name=秦皇岛市)"
+            }
+        }
+    ]
+}
