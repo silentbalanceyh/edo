@@ -1,5 +1,0 @@
-{
-    "countryId":{
-        "$REF$":"(lct.country,code=cn)"
-    }
-}

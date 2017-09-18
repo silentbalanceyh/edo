@@ -1,9 +1,0 @@
-{
-    "uri": "/api/lct/distincts/q/city/:cityId",
-    "identifier":"v.lct.distinct",
-    "address":"MSG://MESSAGE/QUEUE/VIEW",
-    "requiredParam":[
-        "cityId"
-    ],
-    "responder":"com.vie.un.flow.JArrayRepdor"
-}

@@ -1,9 +1,0 @@
-{
-    "uri": "/api/lct/states/q/country/:countryId",
-    "identifier":"lct.state",
-    "address":"MSG://MESSAGE/QUEUE/DATA",
-    "requiredParam":[
-        "countryId"
-    ],
-    "responder":"com.vie.un.flow.JArrayRepdor"
-}
