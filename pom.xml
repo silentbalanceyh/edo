@@ -20,6 +20,17 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!-- AGENT PATH -->
+        <agent.path>
+            ${settings.localRepository}/org/mortbay/jetty/alpn/jetty-alpn-agent/${agent.alpn.version}/jetty-alpn-agent-${agent.alpn.version}.jar
+        </agent.path>
+        <!-- ============================ ALPN ============================ -->
+        <!-- Alpn Agent -->
+        <!-- https://mvnrepository.com/artifact/org.mortbay.jetty.alpn/jetty-alpn-agent -->
+        <agent.alpn.version>2.0.6</agent.alpn.version>
+        <!-- Netty SSL 1.1.33.Fork26 -->
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-tcnative-boringssl-static -->
+        <netty.ssl.version>2.0.6.Final</netty.ssl.version>
         <!-- Vie Engine Version -->
         <vie.version>0.9.1</vie.version>
 
@@ -117,7 +128,175 @@
         <maven.exec.version>1.6.0</maven.exec.version>
     </properties>
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <!-- Deploy Server -->
+            <resource>
+                <targetPath>../wrapper/jsw/vigne-kdeploy/bin</targetPath>
+                <directory>src/main/resources/</directory>
+                <includes>
+                    <include>**/*.bat</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>../wrapper/jsw/vigne-kdeploy/etc</targetPath>
+                <directory>src/main/resources/</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.json</include>
+                    <include>**/*.js</include>
+                    <include>**/*.sql</include>
+                    <include>**/*.jar</include>
+                    <include>**/*.bat</include>
+                </includes>
+            </resource>
+            <!-- Engine Server -->
+            <resource>
+                <targetPath>../wrapper/jsw/vigne-engine/bin</targetPath>
+                <directory>src/main/resources/</directory>
+                <includes>
+                    <include>**/*.bat</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>../wrapper/jsw/vigne-engine/etc</targetPath>
+                <directory>src/main/resources/</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.json</include>
+                    <include>**/*.js</include>
+                    <include>**/*.sql</include>
+                    <include>**/*.jar</include>
+                    <include>**/*.bat</include>
+                </includes>
+            </resource>
+            <!-- Standard Server -->
+            <resource>
+                <targetPath>../wrapper/jsw/vigne-standard/bin</targetPath>
+                <directory>src/main/resources/</directory>
+                <includes>
+                    <include>**/*.bat</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>../wrapper/jsw/vigne-standard/etc</targetPath>
+                <directory>src/main/resources/</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.json</include>
+                    <include>**/*.js</include>
+                    <include>**/*.sql</include>
+                    <include>**/*.jar</include>
+                    <include>**/*.bat</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>appassembler-maven-plugin</artifactId>
+                <version>${maven.mojo.appassembler.version}</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>generate-daemons</goal>
+                        </goals>
+                        <configuration>
+                            <repositoryLayout>flat</repositoryLayout>
+                            <target>${project.build.directory}/wrapper</target>
+                            <useDaemonIdAsWrapperConfName>true</useDaemonIdAsWrapperConfName>
+                            <daemons>
+                                <daemon>
+                                    <id>vigne-standard</id>
+                                    <!-- 打包成windows服务的Main类 -->
+                                    <mainClass>com.scf.inlet.StandardBoujour</mainClass>
+                                    <!-- <commandLineArguments><commandLineArgument>start</commandLineArgument></commandLineArguments> -->
+                                    <jvmSettings>
+                                        <extraArguments>
+                                            <extraArgument>-javaagent:${agent.path}</extraArgument>
+                                        </extraArguments>
+                                    </jvmSettings>
+                                    <platforms>
+                                        <platform>jsw</platform>
+                                    </platforms>
+                                    <generatorConfigurations>
+                                        <generatorConfiguration>
+                                            <generator>jsw</generator>
+                                            <includes>
+                                                <include>linux-x86-64</include>
+                                                <include>macosx-universal-64</include>
+                                                <include>windows-x86-64</include>
+                                            </includes>
+                                            <configuration>
+                                                <property>
+                                                    <name>configuration.directory.in.classpath.first</name>
+                                                    <value>etc</value>
+                                                </property>
+                                            </configuration>
+                                        </generatorConfiguration>
+                                    </generatorConfigurations>
+                                </daemon>
+                                <daemon>
+                                    <id>vigne-kdeploy</id>
+                                    <!-- 打包成windows服务的Main类 -->
+                                    <mainClass>com.scf.inlet.DeployBoujour</mainClass>
+                                    <platforms>
+                                        <platform>jsw</platform>
+                                    </platforms>
+                                    <generatorConfigurations>
+                                        <generatorConfiguration>
+                                            <generator>jsw</generator>
+                                            <includes>
+                                                <include>linux-x86-64</include>
+                                                <include>macosx-universal-64</include>
+                                                <include>windows-x86-64</include>
+                                            </includes>
+                                            <configuration>
+                                                <property>
+                                                    <name>configuration.directory.in.classpath.first</name>
+                                                    <value>etc</value>
+                                                </property>
+                                            </configuration>
+                                        </generatorConfiguration>
+                                    </generatorConfigurations>
+                                </daemon>
+                                <daemon>
+                                    <id>vigne-engine</id>
+                                    <!-- 打包成windows服务的Main类 -->
+                                    <mainClass>com.scf.inlet.EngineBoujour</mainClass>
+                                    <jvmSettings>
+                                        <extraArguments>
+                                            <extraArgument>-javaagent:${agent.path}</extraArgument>
+                                        </extraArguments>
+                                    </jvmSettings>
+                                    <platforms>
+                                        <platform>jsw</platform>
+                                    </platforms>
+                                    <generatorConfigurations>
+                                        <generatorConfiguration>
+                                            <generator>jsw</generator>
+                                            <includes>
+                                                <include>linux-x86-64</include>
+                                                <include>macosx-universal-64</include>
+                                                <include>windows-x86-64</include>
+                                            </includes>
+                                            <configuration>
+                                                <property>
+                                                    <name>configuration.directory.in.classpath.first</name>
+                                                    <value>etc</value>
+                                                </property>
+                                            </configuration>
+                                        </generatorConfiguration>
+                                    </generatorConfigurations>
+                                </daemon>
+                            </daemons>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
@@ -235,6 +414,14 @@
                     <artifactId>maven-assembly-plugin</artifactId>
                     <version>${maven.assembly.plugin.version}</version>
                 </plugin>
+                <!-- -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <configuration>
+                        <argLine>-javaagent:${agent.path}</argLine>
+                    </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -242,6 +429,17 @@
         <dependency>
             <groupId>com.vie</groupId>
             <artifactId>vie-jct</artifactId>
+        </dependency>
+        <!-- MySQL -->
+        <dependency>
+            <groupId>com.vie</groupId>
+            <artifactId>vie-avec-mysql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
         <!-- AspectJ for global -->
         <dependency>
@@ -273,6 +471,20 @@
                 <groupId>com.vie</groupId>
                 <artifactId>vie-jct</artifactId>
                 <version>${vie.version}</version>
+            </dependency>
+            <!-- Injections -->
+            <!-- MySQL -->
+            <dependency>
+                <groupId>com.vie</groupId>
+                <artifactId>vie-avec-mysql</artifactId>
+                <version>${vie.version}</version>
+                <scope>runtime</scope>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${jdbc.mysql.version}</version>
+                <scope>runtime</scope>
             </dependency>
             <!-- Object Validation -->
             <dependency>
@@ -311,6 +523,7 @@
                 <artifactId>aopalliance</artifactId>
                 <version>${aopalliance.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
