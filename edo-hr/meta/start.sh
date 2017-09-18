@@ -3,4 +3,4 @@ export TCP_PORT=6003
 export WEB_PORT=6103
 export H2_ENV=edo-hr
 export H2_DATA=data
-./run.sh
+./resources/docker/run.sh

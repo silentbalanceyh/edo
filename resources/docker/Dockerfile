@@ -1,4 +1,4 @@
-FROM java:7
+FROM java:8
 
 # A merge of:
 #  https://github.com/zhilvis/docker-h2
