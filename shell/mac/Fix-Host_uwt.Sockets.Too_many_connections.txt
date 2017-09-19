@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+cd ~/Library/Containers/com.docker.docker/Data/database/
+
+git reset --hard
+
+cat com.docker.driver.amd64-linux/slirp/max-connections
+
+echo 2000 > com.docker.driver.amd64-linux/slirp/max-connections
+
+git add com.docker.driver.amd64-linux/slirp/max-connections
+
+git commit -s -m 'increase fd limit'
