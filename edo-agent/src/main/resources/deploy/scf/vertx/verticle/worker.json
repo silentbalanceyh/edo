@@ -1,7 +1,7 @@
 [
     {
         "name": "com.vie.un.vtc.ServiceWorker",
-        "instances": 128,
+        "instances": 32,
         "ha": true,
         "worker": true
     }
