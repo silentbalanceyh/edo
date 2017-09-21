@@ -13,7 +13,6 @@
         <module>edo-addr</module>
         <module>edo-agent</module>
         <module>edo-app</module>
-        <module>edo-hr</module>
     </modules>
     <packaging>pom</packaging>
     <name>POM -- Edo Supplier Chain Finance</name>
