@@ -32,6 +32,8 @@
         <netty.ssl.version>2.0.6.Final</netty.ssl.version>
         <!-- Vie Engine Version -->
         <vie.version>0.9.1</vie.version>
+        <!-- Vertx Version -->
+        <vertx.version>3.4.2</vertx.version>
 
         <!-- JDK -->
         <jdk.version>1.8</jdk.version>
@@ -420,6 +422,20 @@
         </pluginManagement>
     </build>
     <dependencies>
+        <!-- Vertx Service -->
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-service-discovery</artifactId>
+        </dependency>
+        <!-- Vertx Circuit -->
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-circuit-breaker</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-web-client</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.vie</groupId>
             <artifactId>vie-jct</artifactId>
@@ -517,7 +533,23 @@
                 <artifactId>aopalliance</artifactId>
                 <version>${aopalliance.version}</version>
             </dependency>
-
+            <!-- Vertx Service -->
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-service-discovery</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
+            <!-- Vertx Circuit -->
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-circuit-breaker</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-web-client</artifactId>
+                <version>${vertx.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
