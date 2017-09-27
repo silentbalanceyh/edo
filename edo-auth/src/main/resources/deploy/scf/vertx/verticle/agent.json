@@ -1,12 +1,12 @@
 [
-    {
-        "name": "com.vie.un.vtc.RouterAgent",
-        "instances": 512,
-        "ha": true
-    },
-    {
-        "name": "com.vie.un.vtc.RpcAgent",
-        "instances": 512,
-        "ha": true
-    }
+  {
+    "name": "com.vie.un.vtc.RouterAgent",
+    "instances": 32,
+    "ha": true
+  },
+  {
+    "name": "com.vie.un.vtc.RpcAgent",
+    "instances": 32,
+    "ha": true
+  }
 ]
