@@ -1,0 +1,13 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "API",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "菜单API",
+            "code": "api.menu"
+        }
+    ]
+}

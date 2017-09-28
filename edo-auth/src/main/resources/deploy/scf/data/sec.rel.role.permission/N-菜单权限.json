@@ -1,0 +1,14 @@
+{
+    "type": "RELATION",
+    "data": [
+        {
+            "permissionId": "(sec.permission,code=api.menu)",
+            "roleId": [
+                "(sec.role,code=SCF_ADMIN)",
+                "(sec.role,code=SCF_RISK)",
+                "(sec.role,code=SCF_STUFF)",
+                "(sec.role,code=SCF_PRODUCT)"
+            ]
+        }
+    ]
+}

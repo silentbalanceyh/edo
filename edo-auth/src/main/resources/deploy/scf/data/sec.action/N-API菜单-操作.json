@@ -1,0 +1,15 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "菜单读取",
+            "code": "OP.MENU.LOAD",
+            "permissionId": {
+                "$REF$": "(sec.permission,code=api.menu)"
+            },
+            "path": "/api/sys/menu/:appId",
+            "method": "GET",
+            "weight": "S"
+        }
+    ]
+}

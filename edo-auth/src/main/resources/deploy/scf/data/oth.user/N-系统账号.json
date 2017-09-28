@@ -3,22 +3,22 @@
     "data": [
         {
             "clientId": {
-                "$REF$": "(sec.user,username=admin)"
+                "$REF$": "(sec.user,username=scf.admin)"
             }
         },
         {
             "clientId": {
-                "$REF$": "(sec.user,username=product)"
+                "$REF$": "(sec.user,username=scf.product)"
             }
         },
         {
             "clientId": {
-                "$REF$": "(sec.user,username=stuff)"
+                "$REF$": "(sec.user,username=scf.stuff)"
             }
         },
         {
             "clientId": {
-                "$REF$": "(sec.user,username=risk)"
+                "$REF$": "(sec.user,username=scf.risk)"
             }
         }
     ]

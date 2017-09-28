@@ -1,63 +1,62 @@
 {
-    "__meta__":{
-        "namespace":"com.vie.rbac",
-        "name":"Action",
-        "identifier":"sec.action",
-        "policy":"GUID"
+    "__meta__": {
+        "namespace": "com.vie.rbac",
+        "name": "Action",
+        "identifier": "sec.action",
+        "policy": "GUID"
     },
-    "__keys__":[
+    "__keys__": [
         {
-            "name":"FK_",
-            "columns":[
-                "R_PARENT_ID"
+            "name": "FK_",
+            "columns": [
+                "R_RES_ID"
             ]
         },
         {
-            "name":"FK_",
-            "columns":[
-                "R_RES_ID"
+            "name": "FK_",
+            "columns": [
+                "R_PERM_ID"
             ]
         }
     ],
-    "__fields__":[
+    "__fields__": [
         {
-            "name":"parentId",
-            "type":"StringType",
-            "columnName":"R_PARENT_ID",
-            "columnType":"STRING1",
-            "length":36,
-            "refTable":"SEC_ACTION"
+            "name": "name",
+            "columnName": "S_NAME"
         },
         {
-            "name":"resourceId",
-            "type":"StringType",
-            "columnName":"R_RES_ID",
-            "columnType":"STRING1",
-            "length":36,
-            "refTable":"SEC_RESOURCE"
+            "name": "resourceId",
+            "type": "StringType",
+            "columnName": "R_RES_ID",
+            "columnType": "STRING1",
+            "length": 36,
+            "refTable": "SEC_RESOURCE"
         },
         {
-            "name":"path",
-            "columnName":"S_PATH",
-            "length":255
+            "name": "permissionId",
+            "type": "StringType",
+            "columnName": "R_PERM_ID",
+            "columnType": "STRING1",
+            "length": 36,
+            "refTable": "SEC_PERMISSION"
         },
         {
-            "name":"method",
-            "columnName":"S_METHOD",
-            "length":10
+            "name": "weight",
+            "columnName": "S_WEIGHT",
+            "length": 2,
+            "comments": "Action的种类，该权限的级别。"
         },
         {
-            "name":"params",
-            "columnName":"J_PARAMS"
+            "name": "method",
+            "columnName": "S_METHOD",
+            "length": 10,
+            "comments": "对应的Http Method"
         },
         {
-            "name":"dispatch",
-            "columnName":"S_DISPATCH",
-            "length":8
-        },
-        {
-            "name":"script",
-            "columnName":"T_SCRIPT"
+            "name": "path",
+            "columnName": "S_PATH",
+            "length": 255,
+            "comments": "访问的API最终地址"
         }
     ]
 }

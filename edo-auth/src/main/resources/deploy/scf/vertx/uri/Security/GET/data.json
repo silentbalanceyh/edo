@@ -1,9 +1,7 @@
 {
-    "uri":"/api/users",
-    "identifier":"sec.user",
-    "address":"MSG://MESSAGE/QUEUE/DATA",
-    "requiredParam":[
-    ],
-    "secure":false,
-    "responder":"com.vie.un.flow.JArrayRepdor"
+    "uri": "/api/users",
+    "identifier": "sec.user",
+    "address": "MSG://MESSAGE/QUEUE/DATA",
+    "secure": false,
+    "responder": "com.vie.un.flow.JArrayRepdor"
 }

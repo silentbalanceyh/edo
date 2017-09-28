@@ -1,16 +1,17 @@
 {
-    "uri":"/api/oth/login",
-    "identifier":"v.oth.user",
-    "method":"POST",
+    "uri": "/api/oth/login",
+    "identifier": "v.oth.user",
+    "method": "POST",
     "paramType": "BODY",
     "address": "MSG://MESSAGE/QUEUE/VIEW",
     "returnFilters": [
-        "password"
+        "password",
+        "roleId"
     ],
     "requiredParam": [
         "username",
         "password"
     ],
-    "secure":false,
+    "secure": false,
     "responder": "com.vie.un.flow.JObjectRepdor"
 }

@@ -2,7 +2,7 @@
     "type": "ENTITY",
     "data": [
         {
-            "username": "admin",
+            "username": "scf.admin",
             "password": "E559D4DA17DD1C17BE86FCF49E60E322",
             "email": "admin@tsf.com",
             "mobile": "15922611441",
@@ -13,7 +13,7 @@
             "taobao": "admin@gmail.com"
         },
         {
-            "username": "product",
+            "username": "scf.product",
             "password": "E559D4DA17DD1C17BE86FCF49E60E322",
             "email": "product@tsf.com",
             "mobile": "15922611442",
@@ -24,7 +24,7 @@
             "taobao": "product@gmail.com"
         },
         {
-            "username": "stuff",
+            "username": "scf.stuff",
             "password": "E559D4DA17DD1C17BE86FCF49E60E322",
             "email": "stuff@tsf.com",
             "mobile": "15922611443",
@@ -35,7 +35,7 @@
             "taobao": "stuff@gmail.com"
         },
         {
-            "username": "risk",
+            "username": "scf.risk",
             "password": "E559D4DA17DD1C17BE86FCF49E60E322",
             "email": "risk@tsf.com",
             "mobile": "15922611444",

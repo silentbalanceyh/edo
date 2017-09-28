@@ -7,46 +7,58 @@
     },
     "__keys__": [
         {
-            "name": "UK_",
-            "columns":[
-                "S_IDENTIFIER"
+            "name": "FK_",
+            "columns": [
+                "R_PARENT_ID"
             ]
         }
     ],
     "__fields__": [
         {
-            "name": "urlId",
+            "name": "parentId",
             "type": "StringType",
-            "columnName": "V_URL_ID",
+            "columnName": "R_PARENT_ID",
             "columnType": "STRING1",
-            "nullable":false,
-            "length":64
+            "length": 36,
+            "refTable": "SEC_RESOURCE"
+        },
+        {
+            "name": "name",
+            "columnName": "S_NAME",
+            "comments": "资源名称"
         },
         {
             "name": "identifier",
             "columnName": "S_IDENTIFIER",
             "unique": true,
-            "nullable":false
+            "nullable": false,
+            "comments": "资源关联的GLOBAL_ID，对应identifier，直接决定资源类型"
         },
         {
-            "name": "object",
-            "columnName": "S_OBJ_TABLE"
+            "name": "type",
+            "columnName": "S_TYPE",
+            "comments": "API | MODULE | DIRECT | MENU、查找到的唯一权限时的权限type必须相同"
         },
         {
-            "name": "objectId",
-            "columnName": "S_OBJ_ID"
+            "name": "path",
+            "columnName": "S_PATH",
+            "comments": "type = API，该资源的路径。"
         },
         {
-            "name": "projection",
-            "columnName": "T_PROJECTION"
+            "name": "method",
+            "columnName": "S_METHOD",
+            "length": 10,
+            "comments": "type = API，该资源的Http方法。"
         },
         {
-            "name": "query",
-            "columnName": "T_QUERY"
+            "name": "weight",
+            "columnName": "S_WEIGHT",
+            "comments": "当前访问资源的类型要求的操作级别"
         },
         {
-            "name": "params",
-            "columnName": "J_PARAMS"
+            "name": "publicKey",
+            "columnName": "S_PUBLIC_KEY",
+            "comments": "角色中的私钥由该资源发放，每次操作角色时，重新更新私钥信息"
         }
     ]
 }

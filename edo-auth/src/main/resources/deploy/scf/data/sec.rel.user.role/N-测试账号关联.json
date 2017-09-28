@@ -4,25 +4,25 @@
         {
             "roleId": "(sec.role,code=SCF_PRODUCT)",
             "userId": [
-                "(sec.user,username=product)"
+                "(sec.user,username=scf.product)"
             ]
         },
         {
             "roleId": "(sec.role,code=SCF_ADMIN)",
             "userId": [
-                "(sec.user,username=admin)"
+                "(sec.user,username=scf.admin)"
             ]
         },
         {
             "roleId": "(sec.role,code=SCF_STUFF)",
             "userId": [
-                "(sec.user,username=stuff)"
+                "(sec.user,username=scf.stuff)"
             ]
         },
         {
             "roleId": "(sec.role,code=SCF_RISK)",
             "userId": [
-                "(sec.user,username=risk)"
+                "(sec.user,username=scf.risk)"
             ]
         }
     ]

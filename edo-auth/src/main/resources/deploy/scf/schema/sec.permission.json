@@ -6,18 +6,11 @@
         "policy": "GUID"
     },
     "__keys__": [
-        {
-            "name": "UK_",
-            "columns": [
-                "S_NAME"
-            ]
-        }
     ],
     "__fields__": [
         {
             "name": "name",
             "columnName": "S_NAME",
-            "unique": true,
             "nullable": false
         },
         {
