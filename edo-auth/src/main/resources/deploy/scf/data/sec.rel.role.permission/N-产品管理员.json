@@ -1,0 +1,16 @@
+{
+    "type": "RELATION",
+    "data": [
+        {
+            "roleId": "(sec.role,code=SCF_PRODUCT)",
+            "permissionId": [
+                "(sec.permission,code=per.ent)",
+                "(sec.permission,code=per.ent.institution)",
+                "(sec.permission,code=per.ent.financing.enterprise)",
+                "(sec.permission,code=per.tpl)",
+                "(sec.permission,code=per.tpl.notify)",
+                "(sec.permission,code=per.tpl.contract)"
+            ]
+        }
+    ]
+}

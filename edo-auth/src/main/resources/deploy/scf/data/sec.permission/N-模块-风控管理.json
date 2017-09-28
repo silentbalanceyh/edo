@@ -1,0 +1,17 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "分析报告",
+            "code": "per.rsk.report"
+        },
+        {
+            "name": "预警规则",
+            "code": "per.rsk.rules"
+        }
+    ]
+}

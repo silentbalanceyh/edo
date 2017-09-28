@@ -1,0 +1,21 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "机构管理",
+            "code": "per.ent.institution"
+        },
+        {
+            "name": "融资企业",
+            "code": "per.ent.financing.enterprise"
+        },
+        {
+            "name": "企业管理",
+            "code": "per.ent.company"
+        }
+    ]
+}

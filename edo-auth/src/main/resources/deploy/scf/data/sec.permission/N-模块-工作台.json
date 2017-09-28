@@ -1,0 +1,17 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "我的事项",
+            "code": "per.slf.todo"
+        },
+        {
+            "name": "用户管理",
+            "code": "per.slf.user"
+        }
+    ]
+}

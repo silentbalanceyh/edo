@@ -1,0 +1,29 @@
+{
+    "type": "RELATION",
+    "data": [
+        {
+            "roleId": "(sec.role,code=SCF_PRODUCT)",
+            "userId": [
+                "(sec.user,username=product)"
+            ]
+        },
+        {
+            "roleId": "(sec.role,code=SCF_ADMIN)",
+            "userId": [
+                "(sec.user,username=admin)"
+            ]
+        },
+        {
+            "roleId": "(sec.role,code=SCF_STUFF)",
+            "userId": [
+                "(sec.user,username=stuff)"
+            ]
+        },
+        {
+            "roleId": "(sec.role,code=SCF_RISK)",
+            "userId": [
+                "(sec.user,username=risk)"
+            ]
+        }
+    ]
+}

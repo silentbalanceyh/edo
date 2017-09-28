@@ -1,0 +1,25 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": true
+    },
+    "data": [
+        {
+            "name": "用户管理",
+            "code": "per.bas.account"
+        },
+        {
+            "name": "重置复核",
+            "code": "per.bas.reset"
+        },
+        {
+            "name": "角色管理",
+            "code": "per.bas.role"
+        },
+        {
+            "name": "参数管理",
+            "code": "per.bas.params"
+        }
+    ]
+}

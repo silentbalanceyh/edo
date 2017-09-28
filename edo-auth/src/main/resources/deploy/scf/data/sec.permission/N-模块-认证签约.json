@@ -1,0 +1,21 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "注册管理",
+            "code": "per.sig.register"
+        },
+        {
+            "name": "认证管理",
+            "code": "per.sig.credit"
+        },
+        {
+            "name": "签约管理",
+            "code": "per.sig.contract"
+        }
+    ]
+}

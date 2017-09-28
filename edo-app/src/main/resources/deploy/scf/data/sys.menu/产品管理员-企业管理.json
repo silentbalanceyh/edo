@@ -1,0 +1,9 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "appId": {
+            "$REF$": "(sys.app,name=edo.app.scf)"
+        },
+        "sigma": "ENhwBAJPZuSgIAE5EDakR6yrIQbOoOPq"
+    }
+}

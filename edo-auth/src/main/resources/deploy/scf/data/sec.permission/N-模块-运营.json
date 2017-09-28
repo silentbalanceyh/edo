@@ -1,0 +1,13 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "查询统计",
+            "code": "per.opt.report"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "RELATION",
+    "data": [
+        {
+            "roleId": "(sec.role,code=SCF_ADMIN)",
+            "permissionId": [
+                "(sec.permission,code=per.bas)",
+                "(sec.permission,code=per.bas.account)",
+                "(sec.permission,code=per.bas.reset)",
+                "(sec.permission,code=per.bas.role)",
+                "(sec.permission,code=per.bas.params)",
+                "(sec.permission,code=per.sig)",
+                "(sec.permission,code=per.sig.register)",
+                "(sec.permission,code=per.sig.credit)",
+                "(sec.permission,code=per.sig.contract)"
+            ]
+        }
+    ]
+}

@@ -1,13 +1,11 @@
 {
-    "__view__":
-    {
+    "__view__": {
         "namespace": "com.viev.oth",
         "name": "OAuthUser",
         "identifier": "v.oth.user",
-        "statement": "SEC_USER AS U JOIN OTH_USER AS O ON U.PK_ID=O.R_CLIENT_ID"
+        "statement": "(SEC_REL_USER_ROLE AS R JOIN (SEC_USER AS U LEFT JOIN OTH_USER AS O ON U.PK_ID=O.R_CLIENT_ID) ON R.R_USER_ID = U.PK_ID)"
     },
-    "__columns__":
-    [
+    "__columns__": [
         {
             "name": "uniqueId",
             "type": "StringType",
@@ -69,6 +67,12 @@
         {
             "name": "grantType",
             "columnName": "O.S_GRANT_TYPE"
+        },
+        {
+            "name": "roleId",
+            "type": "StringType",
+            "columnName": "R.R_ROLE_ID AS ROLE_ID",
+            "columnType": "STRING1"
         }
     ]
 }

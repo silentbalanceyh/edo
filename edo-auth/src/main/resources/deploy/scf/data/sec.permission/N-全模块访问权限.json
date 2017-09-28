@@ -1,0 +1,45 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": false
+    },
+    "data": [
+        {
+            "name": "企业管理",
+            "code": "per.ent"
+        },
+        {
+            "name": "基础设置",
+            "code": "per.bas"
+        },
+        {
+            "name": "模板设置",
+            "code": "per.tpl"
+        },
+        {
+            "name": "运营管理",
+            "code": "per.opt"
+        },
+        {
+            "name": "首页工作台",
+            "code": "per.idx"
+        },
+        {
+            "name": "风控管理",
+            "code": "per.rsk"
+        },
+        {
+            "name": "登陆管理",
+            "code": "per.lng"
+        },
+        {
+            "name": "我的平台",
+            "code": "per.slf"
+        },
+        {
+            "name": "认证签约",
+            "code": "per.sig"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "sec.permission"
+    },
+    "data": [
+        {
+            "name": "页面权限",
+            "code": "Page"
+        },
+        {
+            "name": "菜单权限",
+            "code": "Menu"
+        },
+        {
+            "name": "模块权限",
+            "code": "Module"
+        },
+        {
+            "name": "操作权限",
+            "code": "Action"
+        },
+        {
+            "name": "辅助权限",
+            "code": "Other"
+        }
+    ]
+}

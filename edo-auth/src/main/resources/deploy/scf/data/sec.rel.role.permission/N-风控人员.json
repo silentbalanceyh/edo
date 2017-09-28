@@ -1,0 +1,20 @@
+{
+    "type": "RELATION",
+    "data": [
+        {
+            "roleId": "(sec.role,code=SCF_RISK)",
+            "permissionId": [
+                "(sec.permission,code=per.lng)",
+                "(sec.permission,code=per.lng.major)",
+                "(sec.permission,code=per.slf)",
+                "(sec.permission,code=per.slf.todo)",
+                "(sec.permission,code=per.slf.user)",
+                "(sec.permission,code=per.ent)",
+                "(sec.permission,code=per.ent.company)",
+                "(sec.permission,code=per.rsk)",
+                "(sec.permission,code=per.rsk.report)",
+                "(sec.permission,code=per.rsk.rules)"
+            ]
+        }
+    ]
+}

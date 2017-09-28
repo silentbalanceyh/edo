@@ -1,0 +1,21 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "name": "产品管理员",
+            "code": "SCF_PRODUCT"
+        },
+        {
+            "name": "系统管理员",
+            "code": "SCF_ADMIN"
+        },
+        {
+            "name": "运营人员",
+            "code": "SCF_STUFF"
+        },
+        {
+            "name": "风控人员",
+            "code": "SCF_RISK"
+        }
+    ]
+}

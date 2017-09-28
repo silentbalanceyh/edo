@@ -1,0 +1,12 @@
+{
+    "type": "RELATION",
+    "data": [
+        {
+            "roleId": "(sec.role,code=SCF_STUFF)",
+            "permissionId": [
+                "(sec.permission,code=per.opt)",
+                "(sec.permission,code=per.opt.report)"
+            ]
+        }
+    ]
+}

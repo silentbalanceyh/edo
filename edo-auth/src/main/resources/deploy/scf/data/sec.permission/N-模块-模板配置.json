@@ -1,0 +1,17 @@
+{
+    "type": "ENTITY",
+    "shared": {
+        "type": "MODULE",
+        "super": true
+    },
+    "data": [
+        {
+            "name": "通知模板",
+            "code": "per.tpl.notify"
+        },
+        {
+            "name": "合同模板",
+            "code": "per.tpl.contract"
+        }
+    ]
+}

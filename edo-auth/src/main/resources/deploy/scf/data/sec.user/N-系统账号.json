@@ -2,15 +2,48 @@
     "type": "ENTITY",
     "data": [
         {
-            "username": "lang.yu",
+            "username": "admin",
             "password": "E559D4DA17DD1C17BE86FCF49E60E322",
-            "email": "lang.yu@hpe.com",
-            "mobile": "15922611447",
-            "qq": "445191171",
-            "weibo": "silentbalanceyh@126.com",
-            "wechat": "silentyh",
-            "alipay": "silentbalanceyh@126.com",
-            "taobao": "silentbalanceyh@gmail.com"
+            "email": "admin@tsf.com",
+            "mobile": "15922611441",
+            "qq": "445191172",
+            "weibo": "admin.personal@126.com",
+            "wechat": "admin.wechat",
+            "alipay": "admin@126.com",
+            "taobao": "admin@gmail.com"
+        },
+        {
+            "username": "product",
+            "password": "E559D4DA17DD1C17BE86FCF49E60E322",
+            "email": "product@tsf.com",
+            "mobile": "15922611442",
+            "qq": "445191173",
+            "weibo": "product.personal@126.com",
+            "wechat": "product.wechat",
+            "alipay": "product@126.com",
+            "taobao": "product@gmail.com"
+        },
+        {
+            "username": "stuff",
+            "password": "E559D4DA17DD1C17BE86FCF49E60E322",
+            "email": "stuff@tsf.com",
+            "mobile": "15922611443",
+            "qq": "445191174",
+            "weibo": "stuff.personal@126.com",
+            "wechat": "stuff.wechat",
+            "alipay": "stuff@126.com",
+            "taobao": "stuff@gmail.com"
+        },
+        {
+            "username": "risk",
+            "password": "E559D4DA17DD1C17BE86FCF49E60E322",
+            "email": "risk@tsf.com",
+            "mobile": "15922611444",
+            "qq": "445191175",
+            "weibo": "risk.personal@126.com",
+            "wechat": "risk.wechat",
+            "alipay": "risk@126.com",
+            "taobao": "risk@gmail.com"
         }
     ]
 }

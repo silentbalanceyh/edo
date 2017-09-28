@@ -1,9 +1,24 @@
 {
-    "type":"ENTITY",
-    "data":[
+    "type": "ENTITY",
+    "data": [
         {
-            "clientId":{
-                "$REF$":"(sec.user,username=lang.yu)"
+            "clientId": {
+                "$REF$": "(sec.user,username=admin)"
+            }
+        },
+        {
+            "clientId": {
+                "$REF$": "(sec.user,username=product)"
+            }
+        },
+        {
+            "clientId": {
+                "$REF$": "(sec.user,username=stuff)"
+            }
+        },
+        {
+            "clientId": {
+                "$REF$": "(sec.user,username=risk)"
             }
         }
     ]
