@@ -18,7 +18,7 @@
 
 **本次计算输出**
 
-1. privateKey：从`SEC_ROLE`表中拿到，一个集合；
+1. privateKey：从`SEC_ROLE_MATRIX`表中拿到，一个集合；
 2. 权限类型：从`SEC_ACTION`定位到唯一的权限码，从`SEC_PERMISSION`中读取type字段；
 3. 操作级别：从`SEC_ACTION`中读取操作级别；
 
@@ -34,7 +34,7 @@
 	```
 	访问流程：SEC_RESOURCE -> SEC_RESOURCE （通过根路径查找资源树中最终访问的资源需求表）
 	```
-3. 读取子资源记录中的结果：`type, level, publicKey`；
+3. 读取子资源记录中的结果：`type, weight, publicKey`；
 4. 从密钥库中读取当前角色的密钥，传入：`(Who,Do)：R_ROLE_ID, ACTION_CODE`；
 
 	```
@@ -54,11 +54,15 @@
 1. 上边步骤完成过后，通过`SEC_RESOURCE`和`SEC_ROLE`中各自的ID从`SEC_ROLE_MATRIX`中查找`query`、`projection`处理行列数据域的问题，因为授权过后直接进入自身流程，这两个参数负责提供核心查询参数；
 2. 继续进行第二部操作，通过`SEC_RESOURCE`和`SEC_USER`中各自的ID从`SEC_USER_MATRIX`中查找`query`、`projection`、`approval`、`duration`等复杂信息，进行用户级别的特殊行列运算；
 
+**整体处理流程图如下**
+
+![Authorization](images/auth.png)
+
 ## 几个基本数据
 
-1. `type = API | MODULE | DIRECT | MENU`
-2. `level = V | E | S | (C | U (A) | D) | F`
-	* V: Visible——可见不可见，最小权限
+1. `type = API | MODULE | ENTITY | SEGMENT`
+2. `weight = V | E | S | (C | U (A) | D) | F`
+	* V：Visible——可见不可见，最小权限
 	* E：Enable——可用不可用，次小权限
 	* S：Search——搜索权限（搜索会配合Matrix处理
 	* C：Create——添加，值

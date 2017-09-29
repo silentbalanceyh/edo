@@ -39,7 +39,8 @@
         },
         {
             "name": "privateKey",
-            "columnName": "S_PRIVATE_KEY",
+            "columnName": "B_PRIVATE_KEY",
+            "length": 512,
             "comments": "私钥的基本信息"
         },
         {

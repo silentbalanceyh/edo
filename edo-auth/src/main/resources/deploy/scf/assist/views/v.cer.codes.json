@@ -1,2 +1,38 @@
 {
+    "__view__": {
+        "namespace": "com.viev.cer",
+        "name": "PermCodes",
+        "identifier": "v.cer.codes",
+        "statement": "(SEC_REL_ROLE_PERM AS R LEFT JOIN SEC_PERMISSION AS P ON R.R_PERMISSION_ID = P.PK_ID)"
+    },
+    "__columns__": [
+        {
+            "name": "sigma",
+            "type": "StringType",
+            "columnName": "P.Z_SIGMA",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "super",
+            "columnName": "IS_SUPER"
+        },
+        {
+            "name": "code",
+            "columnName": "S_CODE"
+        },
+        {
+            "name": "name",
+            "columnName": "S_NAME"
+        },
+        {
+            "name": "type",
+            "columnName": "S_TYPE"
+        },
+        {
+            "name": "roleId",
+            "type": "StringType",
+            "columnName": "R.R_ROLE_ID",
+            "columnType": "STRING1"
+        }
+    ]
 }

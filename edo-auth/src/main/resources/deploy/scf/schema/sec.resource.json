@@ -57,7 +57,8 @@
         },
         {
             "name": "publicKey",
-            "columnName": "S_PUBLIC_KEY",
+            "columnName": "B_PUBLIC_KEY",
+            "length": 512,
             "comments": "角色中的私钥由该资源发放，每次操作角色时，重新更新私钥信息"
         }
     ]
