@@ -3,7 +3,7 @@
         "namespace": "com.viev.oth",
         "name": "OAuthUser",
         "identifier": "v.oth.user",
-        "statement": "(SEC_REL_USER_ROLE AS R JOIN (SEC_USER AS U LEFT JOIN OTH_USER AS O ON U.PK_ID=O.R_CLIENT_ID) ON R.R_USER_ID = U.PK_ID)"
+        "statement": "(((SEC_REL_USER_ROLE AS R RIGHT JOIN (SEC_USER AS U LEFT JOIN OTH_USER AS O ON U.PK_ID=O.R_CLIENT_ID) ON R.R_USER_ID = U.PK_ID)) LEFT JOIN SEC_ROLE AS E ON R.R_ROLE_ID = E.PK_ID)"
     },
     "__columns__": [
         {
@@ -72,6 +72,28 @@
             "name": "roleId",
             "type": "StringType",
             "columnName": "R.R_ROLE_ID AS ROLE_ID",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "code",
+            "type": "StringType",
+            "columnName": "E.S_CODE AS ROLE_CODE",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "roleName",
+            "type": "StringType",
+            "columnName": "E.S_NAME AS ROLE_NAME",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "super",
+            "columnName": "E.IS_SUPER"
+        },
+        {
+            "name": "sigma",
+            "type": "StringType",
+            "columnName": "U.Z_SIGMA",
             "columnType": "STRING1"
         }
     ]

@@ -14,19 +14,19 @@
         },
         {
             "name": "super",
-            "columnName": "IS_SUPER"
+            "columnName": "P.IS_SUPER"
         },
         {
             "name": "code",
-            "columnName": "S_CODE"
+            "columnName": "P.S_CODE"
         },
         {
             "name": "name",
-            "columnName": "S_NAME"
+            "columnName": "P.S_NAME"
         },
         {
             "name": "type",
-            "columnName": "S_TYPE"
+            "columnName": "P.S_TYPE"
         },
         {
             "name": "roleId",

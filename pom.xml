@@ -459,6 +459,11 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- Agent -->
+        <dependency>
+            <groupId>org.mortbay.jetty.alpn</groupId>
+            <artifactId>jetty-alpn-agent</artifactId>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -518,6 +523,12 @@
                 <groupId>aopalliance</groupId>
                 <artifactId>aopalliance</artifactId>
                 <version>${aopalliance.version}</version>
+            </dependency>
+            <!-- Agent -->
+            <dependency>
+                <groupId>org.mortbay.jetty.alpn</groupId>
+                <artifactId>jetty-alpn-agent</artifactId>
+                <version>${agent.alpn.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
