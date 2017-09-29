@@ -8,7 +8,7 @@
     </Appenders>
     <loggers>
         <Logger name="org.apache.log4j.xml" level="info"/>
-        <root level="debug">
+        <root level="info">
             <appender-ref ref="STDOUT"/>
         </root>
     </loggers>
