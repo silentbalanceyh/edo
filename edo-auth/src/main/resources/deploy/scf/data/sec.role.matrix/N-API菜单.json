@@ -1,0 +1,14 @@
+{
+    "type": "ENTITY",
+    "data": [
+        {
+            "actionCode": "OP.MENU.GET.LOAD",
+            "resourceId": {
+                "$REF$": "(sec.resource,code=OP.MENU.GET.API)"
+            },
+            "roleId": {
+                "$REF$": "(sec.role,code=SCF_ADMIN)"
+            }
+        }
+    ]
+}

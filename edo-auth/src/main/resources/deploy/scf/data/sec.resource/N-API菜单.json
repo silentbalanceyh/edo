@@ -3,21 +3,21 @@
     "data": [
         {
             "name": "菜单API资源",
-            "code": "GET.MENU.API",
+            "code": "OP.MENU.GET.API",
             "identifier": "sys.menu",
             "type": "API",
             "weight": "S"
         },
         {
             "name": "菜单资源",
-            "code": "GET.MENU.MODULE",
+            "code": "OP.MENU.GET.MODULE",
             "identifier": "sys.menu",
             "type": "MODULE",
             "path": "/api/sys/menu/:appId",
             "method": "GET",
             "weight": "S",
             "parentId": {
-                "$REF$": "(sec.resource,code=GET.MENU.API)"
+                "$REF$": "(sec.resource,code=OP.MENU.GET.API)"
             }
         }
     ]

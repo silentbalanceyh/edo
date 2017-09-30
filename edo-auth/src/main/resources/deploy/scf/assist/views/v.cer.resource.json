@@ -1,0 +1,84 @@
+{
+    "__view__": {
+        "namespace": "com.viev.cer",
+        "name": "PermResource",
+        "identifier": "v.cer.resource",
+        "statement": "((SEC_ACTION AS A LEFT JOIN SEC_PERMISSION AS P ON A.R_PERM_ID = P.PK_ID) LEFT JOIN SEC_RESOURCE AS R ON A.R_RES_ID = R.PK_ID)"
+    },
+    "__columns__": [
+        {
+            "name": "sigma",
+            "type": "StringType",
+            "columnName": "A.Z_SIGMA",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "uniqueId",
+            "type": "StringType",
+            "columnName": "A.PK_ID",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "actionCode",
+            "columnName": "A.S_CODE"
+        },
+        {
+            "name": "weight",
+            "columnName": "A.S_WEIGHT"
+        },
+        {
+            "name": "method",
+            "columnName": "A.S_METHOD"
+        },
+        {
+            "name": "path",
+            "columnName": "A.S_PATH"
+        },
+        {
+            "name": "code",
+            "columnName": "P.S_CODE AS PERM_CODE"
+        },
+        {
+            "name": "type",
+            "columnName": "P.S_TYPE"
+        },
+        {
+            "name": "super",
+            "columnName": "P.IS_SUPER"
+        },
+        {
+            "name": "identifier",
+            "columnName": "R.S_IDENTIFIER"
+        },
+        {
+            "name": "resId",
+            "type": "StringType",
+            "columnName": "R.PK_ID AS RES_ID",
+            "columnType": "STRING1"
+        },
+        {
+            "name": "resName",
+            "columnName": "R.S_NAME AS RES_NAME"
+        },
+        {
+            "name": "resCode",
+            "columnName": "R.S_CODE AS RES_CODE"
+        },
+        {
+            "name": "resType",
+            "columnName": "R.S_TYPE AS RES_TYPE"
+        },
+        {
+            "name": "resPath",
+            "columnName": "R.S_PATH AS RES_PATH"
+        },
+        {
+            "name": "resMethod",
+            "columnName": "R.S_METHOD AS RES_METHOD"
+        },
+        {
+            "name": "resWeight",
+            "columnName": "R.S_WEIGHT AS RES_WEIGHT"
+        }
+    ]
+}
